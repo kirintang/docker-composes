@@ -1,41 +1,36 @@
 version: "2"
 services:
-    etcd-s1:
+    etcd:
         image: gcr.io/etcd-development/etcd:v3.5.0
+        deploy:
+            replicas: 1
+            restart_policy:
+                condition: on-failure
+        container_name: etcd-v3
+        ports:
+            - 2380:2380
+            - 2379:2379
         environment:
-            - ALLOW_NONE_AUTHENTICATION=yes
-            - ETCD_NAME=etcd-s1
-            - ETCD_INITIAL_ADVERTISE_PEER_URLS=http://etcd-s1:2380
-            - ETCD_LISTEN_PEER_URLS=http://0.0.0.0:2380
-            - ETCD_LISTEN_CLIENT_URLS=http://0.0.0.0:2379
-            - ETCD_ADVERTISE_CLIENT_URLS=http://etcd-s1:2379
-            - ETCD_INITIAL_CLUSTER_TOKEN=etcd-cluster
-            - ETCD_INITIAL_CLUSTER=etcd-s1=http://etcd-s1:2380,etcd-s2=http://etcd-s2:2380,etcd-s3=http://etcd-s3:2380
-            - ETCD_INITIAL_CLUSTER_STATE=new
-        container_name: etcd-s1
-    etcd-s2:
-        image: gcr.io/etcd-development/etcd:v3.5.0
-        environment:
-            - ALLOW_NONE_AUTHENTICATION=yes
-            - ETCD_NAME=etcd-s2
-            - ETCD_INITIAL_ADVERTISE_PEER_URLS=http://etcd-s2:2380
-            - ETCD_LISTEN_PEER_URLS=http://0.0.0.0:2380
-            - ETCD_LISTEN_CLIENT_URLS=http://0.0.0.0:2379
-            - ETCD_ADVERTISE_CLIENT_URLS=http://etcd-s2:2379
-            - ETCD_INITIAL_CLUSTER_TOKEN=etcd-cluster
-            - ETCD_INITIAL_CLUSTER=etcd-s1=http://etcd-s1:2380,etcd-s2=http://etcd-s2:2380,etcd-s3=http://etcd-s3:2380
-            - ETCD_INITIAL_CLUSTER_STATE=new
-        container_name: etcd-s2
-    etcd-s3:
-        image: gcr.io/etcd-development/etcd:v3.5.0
-        environment:
-            - ALLOW_NONE_AUTHENTICATION=yes
-            - ETCD_NAME=etcd-s3
-            - ETCD_INITIAL_ADVERTISE_PEER_URLS=http://etcd-s3:2380
-            - ETCD_LISTEN_PEER_URLS=http://0.0.0.0:2380
-            - ETCD_LISTEN_CLIENT_URLS=http://0.0.0.0:2379
-            - ETCD_ADVERTISE_CLIENT_URLS=http://etcd-s3:2379
-            - ETCD_INITIAL_CLUSTER_TOKEN=etcd-cluster
-            - ETCD_INITIAL_CLUSTER=etcd-s1=http://etcd-s1:2380,etcd-s2=http://etcd-s2:2380,etcd-s3=http://etcd-s3:2380
-            - ETCD_INITIAL_CLUSTER_STATE=new
-        container_name: etcd-s3
+            ETCDCTL_API: 3
+        volumes:
+            - ../data/etcd-data:/etcd-data
+        command:
+            - "/usr/local/bin/etcd"
+            - "--name"
+            - "s1"
+            - "--data-dir"
+            - "/etcd-data"
+            - "--advertise-client-urls"
+            - "http://0.0.0.0:2379"
+            - --listen-client-urls
+            - "http://0.0.0.0:2379"
+            - "--initial-advertise-peer-urls"
+            - "http://0.0.0.0:2380"
+            - "--listen-peer-urls"
+            - "http://0.0.0.0:2380"
+            - "--initial-cluster-token"
+            - "tkn"
+            - "--initial-cluster"
+            - "s1=http://0.0.0.0:2380"
+            - "--initial-cluster-state"
+            - "new"
