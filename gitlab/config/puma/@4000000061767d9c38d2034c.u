@@ -1,0 +1,18 @@
+2021-10-25_09:25:57.79864 {"timestamp":"2021-10-25T09:25:57.791Z","pid":322,"message":"Puma starting in cluster mode..."}
+2021-10-25_09:25:57.79987 {"timestamp":"2021-10-25T09:25:57.791Z","pid":322,"message":"* Puma version: 5.3.2 (ruby 2.7.4-p191) (\"Sweetnighter\")"}
+2021-10-25_09:25:57.80203 {"timestamp":"2021-10-25T09:25:57.791Z","pid":322,"message":"*  Min threads: 4"}
+2021-10-25_09:25:57.80345 {"timestamp":"2021-10-25T09:25:57.791Z","pid":322,"message":"*  Max threads: 4"}
+2021-10-25_09:25:57.80462 {"timestamp":"2021-10-25T09:25:57.791Z","pid":322,"message":"*  Environment: production"}
+2021-10-25_09:25:57.80561 {"timestamp":"2021-10-25T09:25:57.791Z","pid":322,"message":"*   Master PID: 322"}
+2021-10-25_09:25:57.80645 {"timestamp":"2021-10-25T09:25:57.791Z","pid":322,"message":"*      Workers: 2"}
+2021-10-25_09:25:57.80723 {"timestamp":"2021-10-25T09:25:57.791Z","pid":322,"message":"*     Restarts: (✔) hot (✖) phased"}
+2021-10-25_09:25:57.80842 {"timestamp":"2021-10-25T09:25:57.791Z","pid":322,"message":"* Preloading application"}
+2021-10-25_09:41:11.55887 {"timestamp":"2021-10-25T09:41:11.558Z","pid":772,"message":"Puma starting in cluster mode..."}
+2021-10-25_09:41:11.56099 {"timestamp":"2021-10-25T09:41:11.558Z","pid":772,"message":"* Puma version: 5.3.2 (ruby 2.7.4-p191) (\"Sweetnighter\")"}
+2021-10-25_09:41:11.56239 {"timestamp":"2021-10-25T09:41:11.558Z","pid":772,"message":"*  Min threads: 4"}
+2021-10-25_09:41:11.56318 {"timestamp":"2021-10-25T09:41:11.558Z","pid":772,"message":"*  Max threads: 4"}
+2021-10-25_09:41:11.56422 {"timestamp":"2021-10-25T09:41:11.558Z","pid":772,"message":"*  Environment: production"}
+2021-10-25_09:41:11.56494 {"timestamp":"2021-10-25T09:41:11.558Z","pid":772,"message":"*   Master PID: 772"}
+2021-10-25_09:41:11.56582 {"timestamp":"2021-10-25T09:41:11.559Z","pid":772,"message":"*      Workers: 2"}
+2021-10-25_09:41:11.56703 {"timestamp":"2021-10-25T09:41:11.560Z","pid":772,"message":"*     Restarts: (✔) hot (✖) phased"}
+2021-10-25_09:41:11.56830 {"timestamp":"2021-10-25T09:41:11.560Z","pid":772,"message":"* Preloading application"}

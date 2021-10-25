@@ -1,0 +1,59 @@
+2021-10-25_09:11:37.97153 LOG:  starting PostgreSQL 12.7 on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 9.3.0-17ubuntu1~20.04) 9.3.0, 64-bit
+2021-10-25_09:11:37.98409 LOG:  listening on Unix socket "/var/opt/gitlab/postgresql/.s.PGSQL.5432"
+2021-10-25_09:11:38.05061 LOG:  database system was shut down at 2021-10-25 09:11:32 GMT
+2021-10-25_09:11:38.07882 LOG:  database system is ready to accept connections
+2021-10-25_09:11:42.21083 LOG:  no match in usermap "gitlab" for user "gitlab" authenticated as "root"
+2021-10-25_09:11:42.21158 FATAL:  Peer authentication failed for user "gitlab"
+2021-10-25_09:11:42.21223 DETAIL:  Connection matched pg_hba.conf line 70: "local   all         all                               peer map=gitlab"
+2021-10-25_09:11:42.43045 LOG:  no match in usermap "gitlab" for user "gitlab" authenticated as "root"
+2021-10-25_09:11:42.43144 FATAL:  Peer authentication failed for user "gitlab"
+2021-10-25_09:11:42.43211 DETAIL:  Connection matched pg_hba.conf line 70: "local   all         all                               peer map=gitlab"
+2021-10-25_09:11:42.54860 LOG:  no match in usermap "gitlab" for user "gitlab" authenticated as "root"
+2021-10-25_09:11:42.54927 FATAL:  Peer authentication failed for user "gitlab"
+2021-10-25_09:11:42.54979 DETAIL:  Connection matched pg_hba.conf line 70: "local   all         all                               peer map=gitlab"
+2021-10-25_09:11:45.05410 LOG:  no match in usermap "gitlab" for user "gitlab" authenticated as "root"
+2021-10-25_09:11:45.05469 FATAL:  Peer authentication failed for user "gitlab"
+2021-10-25_09:11:45.05517 DETAIL:  Connection matched pg_hba.conf line 70: "local   all         all                               peer map=gitlab"
+2021-10-25_09:11:45.56771 LOG:  no match in usermap "gitlab" for user "gitlab" authenticated as "root"
+2021-10-25_09:11:45.56849 FATAL:  Peer authentication failed for user "gitlab"
+2021-10-25_09:11:45.56927 DETAIL:  Connection matched pg_hba.conf line 70: "local   all         all                               peer map=gitlab"
+2021-10-25_09:13:19.53545 WARNING:  could not open statistics file "pg_stat_tmp/global.stat": Operation not permitted
+2021-10-25_09:17:33.85672 ERROR:  canceling statement due to statement timeout
+2021-10-25_09:17:33.85903 STATEMENT:  SELECT a.attname, format_type(a.atttypid, a.atttypmod),
+2021-10-25_09:17:33.88481 	       pg_get_expr(d.adbin, d.adrelid), a.attnotnull, a.atttypid, a.atttypmod,
+2021-10-25_09:17:33.88620 	       c.collname, col_description(a.attrelid, a.attnum) AS comment
+2021-10-25_09:17:33.89528 	  FROM pg_attribute a
+2021-10-25_09:17:33.89735 	  LEFT JOIN pg_attrdef d ON a.attrelid = d.adrelid AND a.attnum = d.adnum
+2021-10-25_09:17:33.89888 	  LEFT JOIN pg_type t ON a.atttypid = t.oid
+2021-10-25_09:17:33.90733 	  LEFT JOIN pg_collation c ON a.attcollation = c.oid AND a.attcollation <> t.typcollation
+2021-10-25_09:17:33.91520 	 WHERE a.attrelid = '"alert_management_alerts"'::regclass
+2021-10-25_09:17:33.92158 	   AND a.attnum > 0 AND NOT a.attisdropped
+2021-10-25_09:17:33.92246 	 ORDER BY a.attnum
+2021-10-25_09:17:33.92335 	
+2021-10-25_09:22:07.47529 WARNING:  could not open statistics file "pg_stat_tmp/db_0.stat": Operation not permitted
+2021-10-25_09:25:20.36174 ERROR:  canceling statement due to statement timeout
+2021-10-25_09:25:20.43865 STATEMENT:  
+2021-10-25_09:25:20.45000 				SELECT
+2021-10-25_09:25:20.48347 					pg_database.datname,
+2021-10-25_09:25:20.53193 					tmp.state,
+2021-10-25_09:25:20.54819 					COALESCE(count,0) as count,
+2021-10-25_09:25:20.55600 					COALESCE(max_tx_duration,0) as max_tx_duration
+2021-10-25_09:25:20.56232 				FROM
+2021-10-25_09:25:20.56607 					(
+2021-10-25_09:25:20.56998 					  VALUES ('active'),
+2021-10-25_09:25:20.57256 					  		 ('idle'),
+2021-10-25_09:25:20.57627 					  		 ('idle in transaction'),
+2021-10-25_09:25:20.59024 					  		 ('idle in transaction (aborted)'),
+2021-10-25_09:25:20.59486 					  		 ('fastpath function call'),
+2021-10-25_09:25:20.88519 					  		 ('disabled')
+2021-10-25_09:25:20.90313 					) AS tmp(state) CROSS JOIN pg_database
+2021-10-25_09:25:20.95038 				LEFT JOIN
+2021-10-25_09:25:20.96025 				(
+2021-10-25_09:25:20.98090 					SELECT
+2021-10-25_09:25:20.99163 						datname,
+2021-10-25_09:25:20.99945 						state,
+2021-10-25_09:25:21.01224 						count(*) AS count,
+2021-10-25_09:25:21.06192 						MAX(EXTRACT(EPOCH FROM now() - xact_start))::float AS max_tx_duration
+2021-10-25_09:25:21.07458 					FROM pg_stat_activity GROUP BY datname,state) AS tmp2
+2021-10-25_09:25:21.13132 					ON tmp.state = tmp2.state AND pg_database.datname = tmp2.datname
+2021-10-25_09:25:21.14208 				

@@ -1,0 +1,8 @@
+# Logfile created on 2021-10-25 09:12:06 +0000 by logger.rb/v1.4.2
+{"severity":"INFO","time":"2021-10-25T09:12:06.647Z","correlation_id":null,"gitlab_throttle_user_allowlist":[]}
+{"severity":"INFO","time":"2021-10-25T09:14:24.043Z","correlation_id":null,"gitlab_throttle_user_allowlist":[]}
+{"severity":"INFO","time":"2021-10-25T09:15:06.537Z","correlation_id":null,"gitlab_throttle_user_allowlist":[]}
+{"severity":"INFO","time":"2021-10-25T09:15:16.715Z","correlation_id":null,"gitlab_throttle_user_allowlist":[]}
+{"severity":"INFO","time":"2021-10-25T09:37:03.785Z","correlation_id":null,"gitlab_throttle_user_allowlist":[]}
+{"severity":"INFO","time":"2021-10-25T09:37:03.829Z","correlation_id":null,"gitlab_throttle_user_allowlist":[]}
+{"severity":"INFO","time":"2021-10-25T09:37:12.426Z","correlation_id":null,"gitlab_throttle_user_allowlist":[]}

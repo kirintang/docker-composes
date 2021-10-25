@@ -1,0 +1,4 @@
+2021-10-25_09:49:07.07070 LOG:  starting PostgreSQL 12.7 on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 9.3.0-17ubuntu1~20.04) 9.3.0, 64-bit
+2021-10-25_09:49:07.08212 LOG:  listening on Unix socket "/var/opt/gitlab/postgresql/.s.PGSQL.5432"
+2021-10-25_09:49:07.89293 LOG:  database system was interrupted; last known up at 2021-10-25 09:26:28 GMT
+2021-10-25_09:49:16.29319 FATAL:  the database system is starting up

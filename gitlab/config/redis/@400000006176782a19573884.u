@@ -1,0 +1,16 @@
+2021-10-25_09:11:10.81222 485:C 25 Oct 2021 09:11:10.812 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+2021-10-25_09:11:10.81283 485:C 25 Oct 2021 09:11:10.812 # Redis version=6.0.14, bits=64, commit=941d58d4, modified=1, pid=485, just started
+2021-10-25_09:11:10.81341 485:C 25 Oct 2021 09:11:10.812 # Configuration loaded
+2021-10-25_09:11:10.82092 485:M 25 Oct 2021 09:11:10.820 * Running mode=standalone, port=0.
+2021-10-25_09:11:10.82153 485:M 25 Oct 2021 09:11:10.820 # Server initialized
+2021-10-25_09:11:10.82278 485:M 25 Oct 2021 09:11:10.822 * The server is now ready to accept connections at /var/opt/gitlab/redis/redis.socket
+2021-10-25_09:16:21.22159 485:M 25 Oct 2021 09:16:20.403 * 10 changes in 300 seconds. Saving...
+2021-10-25_09:16:25.27634 485:M 25 Oct 2021 09:16:23.847 * Background saving started by pid 1037
+2021-10-25_09:16:35.03027 1037:C 25 Oct 2021 09:16:34.503 * DB saved on disk
+2021-10-25_09:16:48.35222 1037:C 25 Oct 2021 09:16:46.881 * RDB: 0 MB of memory used by copy-on-write
+2021-10-25_09:16:55.97351 485:M 25 Oct 2021 09:16:52.903 * Background saving terminated with success
+2021-10-25_09:22:12.27433 485:M 25 Oct 2021 09:22:12.274 * 10 changes in 300 seconds. Saving...
+2021-10-25_09:22:12.27622 485:M 25 Oct 2021 09:22:12.274 * Background saving started by pid 1091
+2021-10-25_09:22:12.30466 1091:C 25 Oct 2021 09:22:12.304 * DB saved on disk
+2021-10-25_09:22:12.30800 1091:C 25 Oct 2021 09:22:12.307 * RDB: 0 MB of memory used by copy-on-write
+2021-10-25_09:22:12.37586 485:M 25 Oct 2021 09:22:12.375 * Background saving terminated with success

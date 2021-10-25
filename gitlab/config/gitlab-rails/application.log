@@ -1,0 +1,90 @@
+# Logfile created on 2021-10-25 09:12:05 +0000 by logger.rb/v1.4.2
+2021-10-25T09:12:05.651Z: ActiveRecord connection established
+2021-10-25T09:12:06.564Z: {:message=>"Syncing dynamic postgres partitions"}
+2021-10-25T09:12:06.598Z: {:message=>"Switched database connection", :connection_name=>"main", :table_name=>"audit_events"}
+2021-10-25T09:12:06.602Z: {:message=>"Checking state of dynamic postgres partitions", :table_name=>"audit_events"}
+2021-10-25T09:12:06.612Z: {:message=>"Switched database connection", :connection_name=>"main", :table_name=>"web_hook_logs"}
+2021-10-25T09:12:06.614Z: {:message=>"Checking state of dynamic postgres partitions", :table_name=>"web_hook_logs"}
+2021-10-25T09:12:06.618Z: {:message=>"Finished sync of dynamic postgres partitions"}
+2021-10-25T09:13:36.902Z: {:message=>"Syncing dynamic postgres partitions"}
+2021-10-25T09:13:36.986Z: {:message=>"Switched database connection", :connection_name=>"main", :table_name=>"audit_events"}
+2021-10-25T09:13:36.989Z: {:message=>"Checking state of dynamic postgres partitions", :table_name=>"audit_events"}
+2021-10-25T09:13:37.168Z: {:method=>"with_lock_retries", :class=>"Gitlab::Database::Partitioning::PartitionManager", :message=>"Lock timeout is set", :current_iteration=>1, :lock_timeout_in_ms=>100}
+2021-10-25T09:13:37.494Z: {:message=>"Created partition", :partition_name=>"audit_events_000000", :table_name=>"audit_events"}
+2021-10-25T09:13:37.626Z: {:message=>"Created partition", :partition_name=>"audit_events_202110", :table_name=>"audit_events"}
+2021-10-25T09:13:37.714Z: {:message=>"Created partition", :partition_name=>"audit_events_202111", :table_name=>"audit_events"}
+2021-10-25T09:13:37.805Z: {:message=>"Created partition", :partition_name=>"audit_events_202112", :table_name=>"audit_events"}
+2021-10-25T09:13:37.906Z: {:message=>"Created partition", :partition_name=>"audit_events_202201", :table_name=>"audit_events"}
+2021-10-25T09:13:37.990Z: {:message=>"Created partition", :partition_name=>"audit_events_202202", :table_name=>"audit_events"}
+2021-10-25T09:13:38.099Z: {:message=>"Created partition", :partition_name=>"audit_events_202203", :table_name=>"audit_events"}
+2021-10-25T09:13:38.228Z: {:message=>"Created partition", :partition_name=>"audit_events_202204", :table_name=>"audit_events"}
+2021-10-25T09:13:38.233Z: {:method=>"with_lock_retries", :class=>"Gitlab::Database::Partitioning::PartitionManager", :message=>"Migration finished", :current_iteration=>1, :lock_timeout_in_ms=>100}
+2021-10-25T09:13:38.301Z: {:message=>"Switched database connection", :connection_name=>"main", :table_name=>"web_hook_logs"}
+2021-10-25T09:13:38.308Z: {:message=>"Checking state of dynamic postgres partitions", :table_name=>"web_hook_logs"}
+2021-10-25T09:13:38.431Z: {:method=>"with_lock_retries", :class=>"Gitlab::Database::Partitioning::PartitionManager", :message=>"Lock timeout is set", :current_iteration=>1, :lock_timeout_in_ms=>100}
+2021-10-25T09:13:38.762Z: {:message=>"Created partition", :partition_name=>"web_hook_logs_202107", :table_name=>"web_hook_logs"}
+2021-10-25T09:13:38.956Z: {:message=>"Created partition", :partition_name=>"web_hook_logs_202108", :table_name=>"web_hook_logs"}
+2021-10-25T09:13:39.087Z: {:message=>"Created partition", :partition_name=>"web_hook_logs_202109", :table_name=>"web_hook_logs"}
+2021-10-25T09:13:39.162Z: {:message=>"Created partition", :partition_name=>"web_hook_logs_202110", :table_name=>"web_hook_logs"}
+2021-10-25T09:13:39.289Z: {:message=>"Created partition", :partition_name=>"web_hook_logs_202111", :table_name=>"web_hook_logs"}
+2021-10-25T09:13:39.411Z: {:message=>"Created partition", :partition_name=>"web_hook_logs_202112", :table_name=>"web_hook_logs"}
+2021-10-25T09:13:39.553Z: {:message=>"Created partition", :partition_name=>"web_hook_logs_202201", :table_name=>"web_hook_logs"}
+2021-10-25T09:13:39.694Z: {:message=>"Created partition", :partition_name=>"web_hook_logs_202202", :table_name=>"web_hook_logs"}
+2021-10-25T09:13:39.848Z: {:message=>"Created partition", :partition_name=>"web_hook_logs_202203", :table_name=>"web_hook_logs"}
+2021-10-25T09:13:39.994Z: {:message=>"Created partition", :partition_name=>"web_hook_logs_202204", :table_name=>"web_hook_logs"}
+2021-10-25T09:13:39.998Z: {:method=>"with_lock_retries", :class=>"Gitlab::Database::Partitioning::PartitionManager", :message=>"Migration finished", :current_iteration=>1, :lock_timeout_in_ms=>100}
+2021-10-25T09:13:40.007Z: {:message=>"Finished sync of dynamic postgres partitions"}
+2021-10-25T09:13:42.928Z: User "Administrator" (admin@example.com) was created
+2021-10-25T09:13:44.093Z: Group "GitLab Instance" was created
+2021-10-25T09:13:49.818Z: GitLab Instance created a new project "GitLab Instance / Monitoring"
+2021-10-25T09:13:50.672Z: `AuthorizedProjectUpdate::ProjectCreateWorker.perform_async` cannot be called inside a transaction as this can lead to
+race conditions when the worker runs before the transaction is committed and
+tries to access a model that has not been saved yet.
+
+Use an `after_commit` hook, or include `AfterCommitQueue` and use a `run_after_commit` block instead.
+
+2021-10-25T09:13:50.721Z: `Projects::PostCreationWorker.perform_async` cannot be called inside a transaction as this can lead to
+race conditions when the worker runs before the transaction is committed and
+tries to access a model that has not been saved yet.
+
+Use an `after_commit` hook, or include `AfterCommitQueue` and use a `run_after_commit` block instead.
+
+2021-10-25T09:13:52.044Z: Cannot obtain an exclusive lease. There must be another instance already in execution.
+2021-10-25T09:14:21.137Z: ActiveRecord connection established
+2021-10-25T09:14:23.584Z: {:message=>"Syncing dynamic postgres partitions"}
+2021-10-25T09:14:23.705Z: {:message=>"Switched database connection", :connection_name=>"main", :table_name=>"audit_events"}
+2021-10-25T09:14:23.716Z: {:message=>"Checking state of dynamic postgres partitions", :table_name=>"audit_events"}
+2021-10-25T09:14:23.927Z: {:message=>"Switched database connection", :connection_name=>"main", :table_name=>"web_hook_logs"}
+2021-10-25T09:14:23.931Z: {:message=>"Checking state of dynamic postgres partitions", :table_name=>"web_hook_logs"}
+2021-10-25T09:14:24.008Z: {:message=>"Finished sync of dynamic postgres partitions"}
+2021-10-25T09:15:06.137Z: {:message=>"Syncing dynamic postgres partitions"}
+2021-10-25T09:15:06.242Z: {:message=>"Switched database connection", :connection_name=>"main", :table_name=>"audit_events"}
+2021-10-25T09:15:06.247Z: {:message=>"Checking state of dynamic postgres partitions", :table_name=>"audit_events"}
+2021-10-25T09:15:06.403Z: {:message=>"Switched database connection", :connection_name=>"main", :table_name=>"web_hook_logs"}
+2021-10-25T09:15:06.407Z: {:message=>"Checking state of dynamic postgres partitions", :table_name=>"web_hook_logs"}
+2021-10-25T09:15:06.489Z: {:message=>"Finished sync of dynamic postgres partitions"}
+2021-10-25T09:15:16.042Z: {:message=>"Syncing dynamic postgres partitions"}
+2021-10-25T09:15:16.267Z: {:message=>"Switched database connection", :connection_name=>"main", :table_name=>"audit_events"}
+2021-10-25T09:15:16.273Z: {:message=>"Checking state of dynamic postgres partitions", :table_name=>"audit_events"}
+2021-10-25T09:15:16.535Z: {:message=>"Switched database connection", :connection_name=>"main", :table_name=>"web_hook_logs"}
+2021-10-25T09:15:16.543Z: {:message=>"Checking state of dynamic postgres partitions", :table_name=>"web_hook_logs"}
+2021-10-25T09:15:16.608Z: {:message=>"Finished sync of dynamic postgres partitions"}
+2021-10-25T09:36:44.430Z: ActiveRecord connection established
+2021-10-25T09:36:59.422Z: {:message=>"Syncing dynamic postgres partitions"}
+2021-10-25T09:36:59.801Z: {:message=>"Syncing dynamic postgres partitions"}
+2021-10-25T09:37:00.021Z: {:message=>"Switched database connection", :connection_name=>"main", :table_name=>"audit_events"}
+2021-10-25T09:37:00.049Z: {:message=>"Checking state of dynamic postgres partitions", :table_name=>"audit_events"}
+2021-10-25T09:37:00.050Z: {:message=>"Switched database connection", :connection_name=>"main", :table_name=>"audit_events"}
+2021-10-25T09:37:00.082Z: {:message=>"Checking state of dynamic postgres partitions", :table_name=>"audit_events"}
+2021-10-25T09:37:03.458Z: {:message=>"Switched database connection", :connection_name=>"main", :table_name=>"web_hook_logs"}
+2021-10-25T09:37:03.466Z: {:message=>"Checking state of dynamic postgres partitions", :table_name=>"web_hook_logs"}
+2021-10-25T09:37:03.497Z: {:message=>"Switched database connection", :connection_name=>"main", :table_name=>"web_hook_logs"}
+2021-10-25T09:37:03.506Z: {:message=>"Checking state of dynamic postgres partitions", :table_name=>"web_hook_logs"}
+2021-10-25T09:37:03.665Z: {:message=>"Finished sync of dynamic postgres partitions"}
+2021-10-25T09:37:03.677Z: {:message=>"Finished sync of dynamic postgres partitions"}
+2021-10-25T09:37:04.942Z: {:message=>"Syncing dynamic postgres partitions"}
+2021-10-25T09:37:05.477Z: {:message=>"Switched database connection", :connection_name=>"main", :table_name=>"audit_events"}
+2021-10-25T09:37:05.526Z: {:message=>"Checking state of dynamic postgres partitions", :table_name=>"audit_events"}
+2021-10-25T09:37:12.095Z: {:message=>"Switched database connection", :connection_name=>"main", :table_name=>"web_hook_logs"}
+2021-10-25T09:37:12.132Z: {:message=>"Checking state of dynamic postgres partitions", :table_name=>"web_hook_logs"}
+2021-10-25T09:37:12.275Z: {:message=>"Finished sync of dynamic postgres partitions"}

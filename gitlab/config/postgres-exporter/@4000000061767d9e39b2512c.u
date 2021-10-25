@@ -1,0 +1,7 @@
+2021-10-25_09:25:57.62591 time="2021-10-25T09:25:57Z" level=info msg="Starting Server: localhost:9187" source="postgres_exporter.go:1850"
+2021-10-25_09:26:16.27996 time="2021-10-25T09:26:16Z" level=info msg="Established new database connection to \"/var/opt/gitlab/postgresql:5432\"." source="postgres_exporter.go:983"
+2021-10-25_09:26:17.30915 time="2021-10-25T09:26:17Z" level=error msg="Error opening connection to database (host=/var/opt/gitlab/postgresql%!u(MISSING)ser=gitlab-psql%!d(MISSING)atabase=gitlabhq_production): pq: the database system is starting up" source="postgres_exporter.go:1621"
+2021-10-25_09:26:31.27045 time="2021-10-25T09:26:31Z" level=info msg="Established new database connection to \"/var/opt/gitlab/postgresql:5432\"." source="postgres_exporter.go:983"
+2021-10-25_09:26:31.91988 time="2021-10-25T09:26:31Z" level=info msg="Semantic Version Changed on \"/var/opt/gitlab/postgresql:5432\": 0.0.0 -> 12.7.0" source="postgres_exporter.go:1552"
+2021-10-25_09:35:05.07963 time="2021-10-25T09:35:05Z" level=info msg="Error running query on database \"/var/opt/gitlab/postgresql:5432\": pg_vacuum_queue pq: canceling statement due to statement timeout" source="postgres_exporter.go:1503"
+2021-10-25_09:35:14.91727 time="2021-10-25T09:35:14Z" level=error msg="queryNamespaceMappings returned 1 errors" source="postgres_exporter.go:1621"

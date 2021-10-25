@@ -1,0 +1,10 @@
+2021-10-25_09:49:06.99810 306:C 25 Oct 2021 09:49:06.998 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+2021-10-25_09:49:06.99866 306:C 25 Oct 2021 09:49:06.998 # Redis version=6.0.14, bits=64, commit=941d58d4, modified=1, pid=306, just started
+2021-10-25_09:49:06.99909 306:C 25 Oct 2021 09:49:06.998 # Configuration loaded
+2021-10-25_09:49:07.01187 306:M 25 Oct 2021 09:49:07.011 * Running mode=standalone, port=0.
+2021-10-25_09:49:07.01220 306:M 25 Oct 2021 09:49:07.011 # Server initialized
+2021-10-25_09:49:07.01669 306:M 25 Oct 2021 09:49:07.016 * Loading RDB produced by version 6.0.14
+2021-10-25_09:49:07.01698 306:M 25 Oct 2021 09:49:07.016 * RDB age 402 seconds
+2021-10-25_09:49:07.01735 306:M 25 Oct 2021 09:49:07.016 * RDB memory usage when created 0.94 Mb
+2021-10-25_09:49:07.01842 306:M 25 Oct 2021 09:49:07.018 * DB loaded from disk: 0.004 seconds
+2021-10-25_09:49:07.01890 306:M 25 Oct 2021 09:49:07.018 * The server is now ready to accept connections at /var/opt/gitlab/redis/redis.socket

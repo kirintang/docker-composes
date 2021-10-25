@@ -1,0 +1,877 @@
+2021-10-25_09:25:59.91626 [2021-10-25 09:25:59] INFO  WEBrick 1.6.1
+2021-10-25_09:25:59.91761 [2021-10-25 09:25:59] INFO  ruby 2.7.4 (2021-07-07) [x86_64-linux]
+2021-10-25_09:25:59.91829 == Sinatra (v2.1.0) has taken the stage on 9168 for development with backup from WEBrick
+2021-10-25_09:25:59.91947 [2021-10-25 09:25:59] INFO  WEBrick::HTTPServer#start: pid=363 port=9168
+2021-10-25_09:26:05.63220 127.0.0.1 - - [25/Oct/2021:09:26:05 UTC] "GET /ruby HTTP/1.1" 200 986
+2021-10-25_09:26:05.63368 - -> /ruby
+2021-10-25_09:26:05.97809 E, [2021-10-25T09:26:05.977297 #363] ERROR -- : Error connecting to the database: FATAL:  the database system is starting up
+2021-10-25_09:26:05.97947 
+2021-10-25_09:26:05.98163 E, [2021-10-25T09:26:05.980215 #363] ERROR -- : Error connecting to the database: FATAL:  the database system is starting up
+2021-10-25_09:26:05.98255 
+2021-10-25_09:26:05.98400 E, [2021-10-25T09:26:05.983771 #363] ERROR -- : Error connecting to the database: FATAL:  the database system is starting up
+2021-10-25_09:26:05.98461 
+2021-10-25_09:26:06.01244 127.0.0.1 - - [25/Oct/2021:09:26:05 UTC] "GET /database HTTP/1.1" 200 0
+2021-10-25_09:26:06.01346 - -> /database
+2021-10-25_09:26:09.74068 127.0.0.1 - - [25/Oct/2021:09:26:09 UTC] "GET /sidekiq HTTP/1.1" 200 1114
+2021-10-25_09:26:09.74149 - -> /sidekiq
+2021-10-25_09:26:20.51962 127.0.0.1 - - [25/Oct/2021:09:26:20 UTC] "GET /ruby HTTP/1.1" 200 989
+2021-10-25_09:26:20.52406 - -> /ruby
+2021-10-25_09:26:20.67959 E, [2021-10-25T09:26:20.678929 #363] ERROR -- : Error connecting to the database: FATAL:  the database system is starting up
+2021-10-25_09:26:20.68051 
+2021-10-25_09:26:20.70367 E, [2021-10-25T09:26:20.703177 #363] ERROR -- : Error connecting to the database: FATAL:  the database system is starting up
+2021-10-25_09:26:20.70468 
+2021-10-25_09:26:20.71310 E, [2021-10-25T09:26:20.712912 #363] ERROR -- : Error connecting to the database: FATAL:  the database system is starting up
+2021-10-25_09:26:20.71443 
+2021-10-25_09:26:20.76260 127.0.0.1 - - [25/Oct/2021:09:26:20 UTC] "GET /database HTTP/1.1" 200 0
+2021-10-25_09:26:20.76364 - -> /database
+2021-10-25_09:26:24.53050 127.0.0.1 - - [25/Oct/2021:09:26:24 UTC] "GET /sidekiq HTTP/1.1" 200 1114
+2021-10-25_09:26:24.53375 - -> /sidekiq
+2021-10-25_09:26:35.62187 127.0.0.1 - - [25/Oct/2021:09:26:35 UTC] "GET /ruby HTTP/1.1" 200 988
+2021-10-25_09:26:35.63142 - -> /ruby
+2021-10-25_09:26:42.38732 127.0.0.1 - - [25/Oct/2021:09:26:39 UTC] "GET /sidekiq HTTP/1.1" 200 1114
+2021-10-25_09:26:42.38828 - -> /sidekiq
+2021-10-25_09:26:44.74257 WARNING:  could not open statistics file "pg_stat_tmp/global.stat": Operation not permitted
+2021-10-25_09:26:56.14779 127.0.0.1 - - [25/Oct/2021:09:26:51 UTC] "GET /ruby HTTP/1.1" 200 994
+2021-10-25_09:26:56.14965 - -> /ruby
+2021-10-25_09:27:01.47695 127.0.0.1 - - [25/Oct/2021:09:26:56 UTC] "GET /sidekiq HTTP/1.1" 200 1114
+2021-10-25_09:27:01.48013 - -> /sidekiq
+2021-10-25_09:27:15.43423 127.0.0.1 - - [25/Oct/2021:09:27:07 UTC] "GET /ruby HTTP/1.1" 200 993
+2021-10-25_09:27:15.43640 - -> /ruby
+2021-10-25_09:27:27.65829 127.0.0.1 - - [25/Oct/2021:09:27:12 UTC] "GET /sidekiq HTTP/1.1" 200 0
+2021-10-25_09:27:27.66237 - -> /sidekiq
+2021-10-25_09:28:17.30674 127.0.0.1 - - [25/Oct/2021:09:27:34 UTC] "GET /ruby HTTP/1.1" 200 0
+2021-10-25_09:28:17.30817 - -> /ruby
+2021-10-25_09:28:30.27826 E, [2021-10-25T09:28:30.274413 #363] ERROR -- : Error connecting to the database: ERROR:  canceling statement due to statement timeout
+2021-10-25_09:28:30.28082 
+2021-10-25_09:28:30.28258 E, [2021-10-25T09:28:30.280077 #363] ERROR -- : Error connecting to the database: ERROR:  canceling statement due to statement timeout
+2021-10-25_09:28:30.28431 
+2021-10-25_09:28:30.28705 2021-10-25 09:28:30 - PG::QueryCanceled - ERROR:  canceling statement due to statement timeout
+2021-10-25_09:28:30.29156 :
+2021-10-25_09:28:30.29316 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/gitlab-exporter-11.2.0/lib/gitlab_exporter/database/ci_builds.rb:278:in `exec'
+2021-10-25_09:28:30.29455 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/gitlab-exporter-11.2.0/lib/gitlab_exporter/database/ci_builds.rb:278:in `block (2 levels) in exec_query_with_custom_random_page_cost'
+2021-10-25_09:28:30.30458 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/gitlab-exporter-11.2.0/lib/gitlab_exporter/database/ci_builds.rb:276:in `transaction'
+2021-10-25_09:28:30.30899 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/gitlab-exporter-11.2.0/lib/gitlab_exporter/database/ci_builds.rb:276:in `block in exec_query_with_custom_random_page_cost'
+2021-10-25_09:28:30.31140 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/gitlab-exporter-11.2.0/lib/gitlab_exporter/database/base.rb:59:in `block in with_connection_pool'
+2021-10-25_09:28:30.32631 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/connection_pool-2.2.5/lib/connection_pool.rb:63:in `block (2 levels) in with'
+2021-10-25_09:28:30.34345 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/connection_pool-2.2.5/lib/connection_pool.rb:62:in `handle_interrupt'
+2021-10-25_09:28:30.35997 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/connection_pool-2.2.5/lib/connection_pool.rb:62:in `block in with'
+2021-10-25_09:28:30.36545 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/connection_pool-2.2.5/lib/connection_pool.rb:59:in `handle_interrupt'
+2021-10-25_09:28:30.37669 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/connection_pool-2.2.5/lib/connection_pool.rb:59:in `with'
+2021-10-25_09:28:30.39113 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/gitlab-exporter-11.2.0/lib/gitlab_exporter/database/base.rb:58:in `with_connection_pool'
+2021-10-25_09:28:30.39654 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/gitlab-exporter-11.2.0/lib/gitlab_exporter/database/ci_builds.rb:275:in `exec_query_with_custom_random_page_cost'
+2021-10-25_09:28:30.40534 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/gitlab-exporter-11.2.0/lib/gitlab_exporter/database/ci_builds.rb:195:in `builds'
+2021-10-25_09:28:30.41496 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/gitlab-exporter-11.2.0/lib/gitlab_exporter/database/ci_builds.rb:180:in `run'
+2021-10-25_09:28:30.41698 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/gitlab-exporter-11.2.0/lib/gitlab_exporter/database/ci_builds.rb:303:in `probe_db'
+2021-10-25_09:28:30.44081 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/gitlab-exporter-11.2.0/lib/gitlab_exporter/prober.rb:18:in `block (3 levels) in probe_all'
+2021-10-25_09:28:30.44495 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/gitlab-exporter-11.2.0/lib/gitlab_exporter/prober.rb:17:in `each'
+2021-10-25_09:28:30.46804 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/gitlab-exporter-11.2.0/lib/gitlab_exporter/prober.rb:17:in `block (2 levels) in probe_all'
+2021-10-25_09:28:30.47275 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/gitlab-exporter-11.2.0/lib/gitlab_exporter/prober.rb:15:in `each'
+2021-10-25_09:28:30.47710 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/gitlab-exporter-11.2.0/lib/gitlab_exporter/prober.rb:15:in `block in probe_all'
+2021-10-25_09:28:30.48333 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/gitlab-exporter-11.2.0/lib/gitlab_exporter/prober.rb:14:in `each'
+2021-10-25_09:28:30.50174 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/gitlab-exporter-11.2.0/lib/gitlab_exporter/prober.rb:14:in `probe_all'
+2021-10-25_09:28:30.50839 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/gitlab-exporter-11.2.0/lib/gitlab_exporter/web_exporter.rb:94:in `block (2 levels) in setup_probes'
+2021-10-25_09:28:30.56867 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/sinatra-2.1.0/lib/sinatra/base.rb:1675:in `call'
+2021-10-25_09:28:30.61882 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/sinatra-2.1.0/lib/sinatra/base.rb:1675:in `block in compile!'
+2021-10-25_09:28:30.63264 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/sinatra-2.1.0/lib/sinatra/base.rb:1013:in `block (3 levels) in route!'
+2021-10-25_09:28:30.64585 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/sinatra-2.1.0/lib/sinatra/base.rb:1032:in `route_eval'
+2021-10-25_09:28:30.67331 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/sinatra-2.1.0/lib/sinatra/base.rb:1013:in `block (2 levels) in route!'
+2021-10-25_09:28:30.69409 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/sinatra-2.1.0/lib/sinatra/base.rb:1061:in `block in process_route'
+2021-10-25_09:28:30.82281 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/sinatra-2.1.0/lib/sinatra/base.rb:1059:in `catch'
+2021-10-25_09:28:30.84224 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/sinatra-2.1.0/lib/sinatra/base.rb:1059:in `process_route'
+2021-10-25_09:28:30.84579 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/sinatra-2.1.0/lib/sinatra/base.rb:1011:in `block in route!'
+2021-10-25_09:28:30.84806 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/sinatra-2.1.0/lib/sinatra/base.rb:1008:in `each'
+2021-10-25_09:28:30.86382 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/sinatra-2.1.0/lib/sinatra/base.rb:1008:in `route!'
+2021-10-25_09:28:30.86844 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/sinatra-2.1.0/lib/sinatra/base.rb:1129:in `block in dispatch!'
+2021-10-25_09:28:30.87135 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/sinatra-2.1.0/lib/sinatra/base.rb:1101:in `block in invoke'
+2021-10-25_09:28:30.87484 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/sinatra-2.1.0/lib/sinatra/base.rb:1101:in `catch'
+2021-10-25_09:28:30.87723 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/sinatra-2.1.0/lib/sinatra/base.rb:1101:in `invoke'
+2021-10-25_09:28:30.88582 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/sinatra-2.1.0/lib/sinatra/base.rb:1124:in `dispatch!'
+2021-10-25_09:28:30.89702 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/sinatra-2.1.0/lib/sinatra/base.rb:939:in `block in call!'
+2021-10-25_09:28:30.89907 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/sinatra-2.1.0/lib/sinatra/base.rb:1101:in `block in invoke'
+2021-10-25_09:28:30.90439 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/sinatra-2.1.0/lib/sinatra/base.rb:1101:in `catch'
+2021-10-25_09:28:30.90876 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/sinatra-2.1.0/lib/sinatra/base.rb:1101:in `invoke'
+2021-10-25_09:28:30.94129 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/sinatra-2.1.0/lib/sinatra/base.rb:939:in `call!'
+2021-10-25_09:28:30.96560 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/sinatra-2.1.0/lib/sinatra/base.rb:929:in `call'
+2021-10-25_09:28:30.97461 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/gitlab-exporter-11.2.0/lib/gitlab_exporter/web_exporter.rb:47:in `call'
+2021-10-25_09:28:31.01631 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/rack-2.2.3/lib/rack/logger.rb:17:in `call'
+2021-10-25_09:28:31.06072 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/gitlab-exporter-11.2.0/lib/gitlab_exporter/web_exporter.rb:21:in `call'
+2021-10-25_09:28:31.07496 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/rack-protection-2.1.0/lib/rack/protection/xss_header.rb:18:in `call'
+2021-10-25_09:28:31.09183 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/rack-protection-2.1.0/lib/rack/protection/path_traversal.rb:16:in `call'
+2021-10-25_09:28:31.09322 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/rack-protection-2.1.0/lib/rack/protection/json_csrf.rb:26:in `call'
+2021-10-25_09:28:31.09503 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/rack-protection-2.1.0/lib/rack/protection/base.rb:50:in `call'
+2021-10-25_09:28:31.14180 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/rack-protection-2.1.0/lib/rack/protection/base.rb:50:in `call'
+2021-10-25_09:28:31.14747 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/rack-protection-2.1.0/lib/rack/protection/frame_options.rb:31:in `call'
+2021-10-25_09:28:31.14990 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/rack-2.2.3/lib/rack/null_logger.rb:11:in `call'
+2021-10-25_09:28:31.15094 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/rack-2.2.3/lib/rack/head.rb:12:in `call'
+2021-10-25_09:28:31.15229 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/sinatra-2.1.0/lib/sinatra/show_exceptions.rb:22:in `call'
+2021-10-25_09:28:31.15425 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/sinatra-2.1.0/lib/sinatra/base.rb:216:in `call'
+2021-10-25_09:28:31.15528 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/sinatra-2.1.0/lib/sinatra/base.rb:1991:in `call'
+2021-10-25_09:28:31.15643 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/sinatra-2.1.0/lib/sinatra/base.rb:1542:in `block in call'
+2021-10-25_09:28:31.16307 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/sinatra-2.1.0/lib/sinatra/base.rb:1769:in `synchronize'
+2021-10-25_09:28:31.18647 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/sinatra-2.1.0/lib/sinatra/base.rb:1542:in `call'
+2021-10-25_09:28:31.28529 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/rack-2.2.3/lib/rack/handler/webrick.rb:95:in `service'
+2021-10-25_09:28:31.28884 	/opt/gitlab/embedded/lib/ruby/2.7.0/webrick/httpserver.rb:140:in `service'
+2021-10-25_09:28:31.30142 	/opt/gitlab/embedded/lib/ruby/2.7.0/webrick/httpserver.rb:96:in `run'
+2021-10-25_09:28:31.31278 	/opt/gitlab/embedded/lib/ruby/2.7.0/webrick/server.rb:307:in `block in start_thread'
+2021-10-25_09:28:32.11645 2021-10-25 09:28:32 - PG::QueryCanceled - ERROR:  canceling statement due to statement timeout
+2021-10-25_09:28:32.12135 :
+2021-10-25_09:28:32.12607 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/pg-1.2.3/lib/pg/basic_type_mapping.rb:120:in `exec'
+2021-10-25_09:28:32.12899 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/pg-1.2.3/lib/pg/basic_type_mapping.rb:120:in `build_coder_maps'
+2021-10-25_09:28:32.13142 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/pg-1.2.3/lib/pg/basic_type_mapping.rb:325:in `initialize'
+2021-10-25_09:28:32.13434 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/gitlab-exporter-11.2.0/lib/gitlab_exporter/database/base.rb:29:in `new'
+2021-10-25_09:28:32.14725 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/gitlab-exporter-11.2.0/lib/gitlab_exporter/database/base.rb:29:in `configure_type_map_for_results'
+2021-10-25_09:28:32.14831 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/gitlab-exporter-11.2.0/lib/gitlab_exporter/database/base.rb:22:in `block (3 levels) in connection_pool'
+2021-10-25_09:28:32.15988 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/gitlab-exporter-11.2.0/lib/gitlab_exporter/database/base.rb:21:in `tap'
+2021-10-25_09:28:32.16116 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/gitlab-exporter-11.2.0/lib/gitlab_exporter/database/base.rb:21:in `block (2 levels) in connection_pool'
+2021-10-25_09:28:32.16740 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/connection_pool-2.2.5/lib/connection_pool/timed_stack.rb:169:in `try_create'
+2021-10-25_09:28:32.17850 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/connection_pool-2.2.5/lib/connection_pool/timed_stack.rb:73:in `block (2 levels) in pop'
+2021-10-25_09:28:32.18112 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/connection_pool-2.2.5/lib/connection_pool/timed_stack.rb:69:in `loop'
+2021-10-25_09:28:32.18315 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/connection_pool-2.2.5/lib/connection_pool/timed_stack.rb:69:in `block in pop'
+2021-10-25_09:28:32.18551 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/connection_pool-2.2.5/lib/connection_pool/timed_stack.rb:68:in `synchronize'
+2021-10-25_09:28:32.18977 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/connection_pool-2.2.5/lib/connection_pool/timed_stack.rb:68:in `pop'
+2021-10-25_09:28:32.19248 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/connection_pool-2.2.5/lib/connection_pool.rb:78:in `checkout'
+2021-10-25_09:28:32.20358 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/connection_pool-2.2.5/lib/connection_pool.rb:60:in `block in with'
+2021-10-25_09:28:32.24461 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/connection_pool-2.2.5/lib/connection_pool.rb:59:in `handle_interrupt'
+2021-10-25_09:28:32.24556 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/connection_pool-2.2.5/lib/connection_pool.rb:59:in `with'
+2021-10-25_09:28:32.25981 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/gitlab-exporter-11.2.0/lib/gitlab_exporter/database/base.rb:58:in `with_connection_pool'
+2021-10-25_09:28:32.26396 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/gitlab-exporter-11.2.0/lib/gitlab_exporter/database/ci_builds.rb:286:in `ee?'
+2021-10-25_09:28:32.28617 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/gitlab-exporter-11.2.0/lib/gitlab_exporter/database/ci_builds.rb:193:in `builds'
+2021-10-25_09:28:32.28797 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/gitlab-exporter-11.2.0/lib/gitlab_exporter/database/ci_builds.rb:180:in `run'
+2021-10-25_09:28:32.30236 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/gitlab-exporter-11.2.0/lib/gitlab_exporter/database/ci_builds.rb:303:in `probe_db'
+2021-10-25_09:28:32.31026 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/gitlab-exporter-11.2.0/lib/gitlab_exporter/prober.rb:18:in `block (3 levels) in probe_all'
+2021-10-25_09:28:32.31162 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/gitlab-exporter-11.2.0/lib/gitlab_exporter/prober.rb:17:in `each'
+2021-10-25_09:28:32.34066 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/gitlab-exporter-11.2.0/lib/gitlab_exporter/prober.rb:17:in `block (2 levels) in probe_all'
+2021-10-25_09:28:32.34177 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/gitlab-exporter-11.2.0/lib/gitlab_exporter/prober.rb:15:in `each'
+2021-10-25_09:28:32.34898 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/gitlab-exporter-11.2.0/lib/gitlab_exporter/prober.rb:15:in `block in probe_all'
+2021-10-25_09:28:32.35440 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/gitlab-exporter-11.2.0/lib/gitlab_exporter/prober.rb:14:in `each'
+2021-10-25_09:28:32.35744 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/gitlab-exporter-11.2.0/lib/gitlab_exporter/prober.rb:14:in `probe_all'
+2021-10-25_09:28:32.36709 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/gitlab-exporter-11.2.0/lib/gitlab_exporter/web_exporter.rb:94:in `block (2 levels) in setup_probes'
+2021-10-25_09:28:32.37461 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/sinatra-2.1.0/lib/sinatra/base.rb:1675:in `call'
+2021-10-25_09:28:32.37580 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/sinatra-2.1.0/lib/sinatra/base.rb:1675:in `block in compile!'
+2021-10-25_09:28:32.38430 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/sinatra-2.1.0/lib/sinatra/base.rb:1013:in `block (3 levels) in route!'
+2021-10-25_09:28:32.38581 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/sinatra-2.1.0/lib/sinatra/base.rb:1032:in `route_eval'
+2021-10-25_09:28:32.38823 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/sinatra-2.1.0/lib/sinatra/base.rb:1013:in `block (2 levels) in route!'
+2021-10-25_09:28:32.41559 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/sinatra-2.1.0/lib/sinatra/base.rb:1061:in `block in process_route'
+2021-10-25_09:28:32.41711 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/sinatra-2.1.0/lib/sinatra/base.rb:1059:in `catch'
+2021-10-25_09:28:32.41830 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/sinatra-2.1.0/lib/sinatra/base.rb:1059:in `process_route'
+2021-10-25_09:28:32.49314 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/sinatra-2.1.0/lib/sinatra/base.rb:1011:in `block in route!'
+2021-10-25_09:28:32.56765 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/sinatra-2.1.0/lib/sinatra/base.rb:1008:in `each'
+2021-10-25_09:28:32.58338 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/sinatra-2.1.0/lib/sinatra/base.rb:1008:in `route!'
+2021-10-25_09:28:32.59162 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/sinatra-2.1.0/lib/sinatra/base.rb:1129:in `block in dispatch!'
+2021-10-25_09:28:32.59346 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/sinatra-2.1.0/lib/sinatra/base.rb:1101:in `block in invoke'
+2021-10-25_09:28:32.61827 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/sinatra-2.1.0/lib/sinatra/base.rb:1101:in `catch'
+2021-10-25_09:28:32.62002 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/sinatra-2.1.0/lib/sinatra/base.rb:1101:in `invoke'
+2021-10-25_09:28:32.62115 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/sinatra-2.1.0/lib/sinatra/base.rb:1124:in `dispatch!'
+2021-10-25_09:28:32.62701 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/sinatra-2.1.0/lib/sinatra/base.rb:939:in `block in call!'
+2021-10-25_09:28:32.63349 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/sinatra-2.1.0/lib/sinatra/base.rb:1101:in `block in invoke'
+2021-10-25_09:28:32.63843 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/sinatra-2.1.0/lib/sinatra/base.rb:1101:in `catch'
+2021-10-25_09:28:32.63985 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/sinatra-2.1.0/lib/sinatra/base.rb:1101:in `invoke'
+2021-10-25_09:28:32.64080 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/sinatra-2.1.0/lib/sinatra/base.rb:939:in `call!'
+2021-10-25_09:28:32.65706 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/sinatra-2.1.0/lib/sinatra/base.rb:929:in `call'
+2021-10-25_09:28:32.67630 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/gitlab-exporter-11.2.0/lib/gitlab_exporter/web_exporter.rb:47:in `call'
+2021-10-25_09:28:32.68428 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/rack-2.2.3/lib/rack/logger.rb:17:in `call'
+2021-10-25_09:28:32.70075 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/gitlab-exporter-11.2.0/lib/gitlab_exporter/web_exporter.rb:21:in `call'
+2021-10-25_09:28:32.70425 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/rack-protection-2.1.0/lib/rack/protection/xss_header.rb:18:in `call'
+2021-10-25_09:28:32.71493 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/rack-protection-2.1.0/lib/rack/protection/path_traversal.rb:16:in `call'
+2021-10-25_09:28:32.72157 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/rack-protection-2.1.0/lib/rack/protection/json_csrf.rb:26:in `call'
+2021-10-25_09:28:32.73612 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/rack-protection-2.1.0/lib/rack/protection/base.rb:50:in `call'
+2021-10-25_09:28:32.73800 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/rack-protection-2.1.0/lib/rack/protection/base.rb:50:in `call'
+2021-10-25_09:28:32.76330 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/rack-protection-2.1.0/lib/rack/protection/frame_options.rb:31:in `call'
+2021-10-25_09:28:32.89538 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/rack-2.2.3/lib/rack/null_logger.rb:11:in `call'
+2021-10-25_09:28:32.92496 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/rack-2.2.3/lib/rack/head.rb:12:in `call'
+2021-10-25_09:28:32.93323 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/sinatra-2.1.0/lib/sinatra/show_exceptions.rb:22:in `call'
+2021-10-25_09:28:32.93884 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/sinatra-2.1.0/lib/sinatra/base.rb:216:in `call'
+2021-10-25_09:28:32.94037 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/sinatra-2.1.0/lib/sinatra/base.rb:1991:in `call'
+2021-10-25_09:28:32.94359 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/sinatra-2.1.0/lib/sinatra/base.rb:1542:in `block in call'
+2021-10-25_09:28:32.95543 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/sinatra-2.1.0/lib/sinatra/base.rb:1769:in `synchronize'
+2021-10-25_09:28:32.96412 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/sinatra-2.1.0/lib/sinatra/base.rb:1542:in `call'
+2021-10-25_09:28:32.96562 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/rack-2.2.3/lib/rack/handler/webrick.rb:95:in `service'
+2021-10-25_09:28:32.97027 	/opt/gitlab/embedded/lib/ruby/2.7.0/webrick/httpserver.rb:140:in `service'
+2021-10-25_09:28:32.97288 	/opt/gitlab/embedded/lib/ruby/2.7.0/webrick/httpserver.rb:96:in `run'
+2021-10-25_09:28:33.00063 	/opt/gitlab/embedded/lib/ruby/2.7.0/webrick/server.rb:307:in `block in start_thread'
+2021-10-25_09:35:11.24753 E, [2021-10-25T09:35:11.244179 #363] ERROR -- : Error connecting to the database: ERROR:  canceling statement due to statement timeout
+2021-10-25_09:35:11.27111 
+2021-10-25_09:35:11.30029 2021-10-25 09:35:11 - PG::QueryCanceled - ERROR:  canceling statement due to statement timeout
+2021-10-25_09:35:11.30898 :
+2021-10-25_09:35:11.31846 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/gitlab-exporter-11.2.0/lib/gitlab_exporter/database/row_count.rb:178:in `exec'
+2021-10-25_09:35:11.33488 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/gitlab-exporter-11.2.0/lib/gitlab_exporter/database/row_count.rb:178:in `block in execute'
+2021-10-25_09:35:11.35299 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/gitlab-exporter-11.2.0/lib/gitlab_exporter/database/base.rb:59:in `block in with_connection_pool'
+2021-10-25_09:35:11.36597 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/connection_pool-2.2.5/lib/connection_pool.rb:63:in `block (2 levels) in with'
+2021-10-25_09:35:11.37896 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/connection_pool-2.2.5/lib/connection_pool.rb:62:in `handle_interrupt'
+2021-10-25_09:35:11.38178 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/connection_pool-2.2.5/lib/connection_pool.rb:62:in `block in with'
+2021-10-25_09:35:11.39187 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/connection_pool-2.2.5/lib/connection_pool.rb:59:in `handle_interrupt'
+2021-10-25_09:35:11.39906 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/connection_pool-2.2.5/lib/connection_pool.rb:59:in `with'
+2021-10-25_09:35:11.41959 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/gitlab-exporter-11.2.0/lib/gitlab_exporter/database/base.rb:58:in `with_connection_pool'
+2021-10-25_09:35:11.45494 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/gitlab-exporter-11.2.0/lib/gitlab_exporter/database/row_count.rb:177:in `execute'
+2021-10-25_09:35:11.46452 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/gitlab-exporter-11.2.0/lib/gitlab_exporter/database/row_count.rb:159:in `count_from_query_hash'
+2021-10-25_09:35:11.46927 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/gitlab-exporter-11.2.0/lib/gitlab_exporter/database/row_count.rb:150:in `block in run'
+2021-10-25_09:35:11.48404 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/gitlab-exporter-11.2.0/lib/gitlab_exporter/database/row_count.rb:146:in `each'
+2021-10-25_09:35:11.49139 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/gitlab-exporter-11.2.0/lib/gitlab_exporter/database/row_count.rb:146:in `run'
+2021-10-25_09:35:11.51118 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/gitlab-exporter-11.2.0/lib/gitlab_exporter/database/row_count.rb:209:in `probe_db'
+2021-10-25_09:35:11.51529 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/gitlab-exporter-11.2.0/lib/gitlab_exporter/prober.rb:18:in `block (3 levels) in probe_all'
+2021-10-25_09:35:11.53045 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/gitlab-exporter-11.2.0/lib/gitlab_exporter/prober.rb:17:in `each'
+2021-10-25_09:35:11.54085 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/gitlab-exporter-11.2.0/lib/gitlab_exporter/prober.rb:17:in `block (2 levels) in probe_all'
+2021-10-25_09:35:11.57195 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/gitlab-exporter-11.2.0/lib/gitlab_exporter/prober.rb:15:in `each'
+2021-10-25_09:35:11.59949 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/gitlab-exporter-11.2.0/lib/gitlab_exporter/prober.rb:15:in `block in probe_all'
+2021-10-25_09:35:11.63331 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/gitlab-exporter-11.2.0/lib/gitlab_exporter/prober.rb:14:in `each'
+2021-10-25_09:35:11.65783 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/gitlab-exporter-11.2.0/lib/gitlab_exporter/prober.rb:14:in `probe_all'
+2021-10-25_09:35:11.67284 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/gitlab-exporter-11.2.0/lib/gitlab_exporter/web_exporter.rb:94:in `block (2 levels) in setup_probes'
+2021-10-25_09:35:11.68159 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/sinatra-2.1.0/lib/sinatra/base.rb:1675:in `call'
+2021-10-25_09:35:11.69269 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/sinatra-2.1.0/lib/sinatra/base.rb:1675:in `block in compile!'
+2021-10-25_09:35:11.71959 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/sinatra-2.1.0/lib/sinatra/base.rb:1013:in `block (3 levels) in route!'
+2021-10-25_09:35:11.72796 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/sinatra-2.1.0/lib/sinatra/base.rb:1032:in `route_eval'
+2021-10-25_09:35:11.73729 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/sinatra-2.1.0/lib/sinatra/base.rb:1013:in `block (2 levels) in route!'
+2021-10-25_09:35:11.74564 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/sinatra-2.1.0/lib/sinatra/base.rb:1061:in `block in process_route'
+2021-10-25_09:35:11.77265 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/sinatra-2.1.0/lib/sinatra/base.rb:1059:in `catch'
+2021-10-25_09:35:11.78048 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/sinatra-2.1.0/lib/sinatra/base.rb:1059:in `process_route'
+2021-10-25_09:35:11.78731 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/sinatra-2.1.0/lib/sinatra/base.rb:1011:in `block in route!'
+2021-10-25_09:35:11.79887 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/sinatra-2.1.0/lib/sinatra/base.rb:1008:in `each'
+2021-10-25_09:35:11.80820 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/sinatra-2.1.0/lib/sinatra/base.rb:1008:in `route!'
+2021-10-25_09:35:11.82023 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/sinatra-2.1.0/lib/sinatra/base.rb:1129:in `block in dispatch!'
+2021-10-25_09:35:11.83918 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/sinatra-2.1.0/lib/sinatra/base.rb:1101:in `block in invoke'
+2021-10-25_09:35:11.84303 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/sinatra-2.1.0/lib/sinatra/base.rb:1101:in `catch'
+2021-10-25_09:35:11.85014 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/sinatra-2.1.0/lib/sinatra/base.rb:1101:in `invoke'
+2021-10-25_09:35:12.13323 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/sinatra-2.1.0/lib/sinatra/base.rb:1124:in `dispatch!'
+2021-10-25_09:35:12.16154 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/sinatra-2.1.0/lib/sinatra/base.rb:939:in `block in call!'
+2021-10-25_09:35:12.17937 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/sinatra-2.1.0/lib/sinatra/base.rb:1101:in `block in invoke'
+2021-10-25_09:35:12.18904 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/sinatra-2.1.0/lib/sinatra/base.rb:1101:in `catch'
+2021-10-25_09:35:12.19401 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/sinatra-2.1.0/lib/sinatra/base.rb:1101:in `invoke'
+2021-10-25_09:35:12.20094 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/sinatra-2.1.0/lib/sinatra/base.rb:939:in `call!'
+2021-10-25_09:35:12.21119 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/sinatra-2.1.0/lib/sinatra/base.rb:929:in `call'
+2021-10-25_09:35:12.21935 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/gitlab-exporter-11.2.0/lib/gitlab_exporter/web_exporter.rb:47:in `call'
+2021-10-25_09:35:12.22923 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/rack-2.2.3/lib/rack/logger.rb:17:in `call'
+2021-10-25_09:35:12.26553 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/gitlab-exporter-11.2.0/lib/gitlab_exporter/web_exporter.rb:21:in `call'
+2021-10-25_09:35:12.27216 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/rack-protection-2.1.0/lib/rack/protection/xss_header.rb:18:in `call'
+2021-10-25_09:35:12.29161 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/rack-protection-2.1.0/lib/rack/protection/path_traversal.rb:16:in `call'
+2021-10-25_09:35:12.32898 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/rack-protection-2.1.0/lib/rack/protection/json_csrf.rb:26:in `call'
+2021-10-25_09:35:12.35745 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/rack-protection-2.1.0/lib/rack/protection/base.rb:50:in `call'
+2021-10-25_09:35:12.48562 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/rack-protection-2.1.0/lib/rack/protection/base.rb:50:in `call'
+2021-10-25_09:35:12.51307 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/rack-protection-2.1.0/lib/rack/protection/frame_options.rb:31:in `call'
+2021-10-25_09:35:12.53468 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/rack-2.2.3/lib/rack/null_logger.rb:11:in `call'
+2021-10-25_09:35:12.56423 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/rack-2.2.3/lib/rack/head.rb:12:in `call'
+2021-10-25_09:35:12.58302 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/sinatra-2.1.0/lib/sinatra/show_exceptions.rb:22:in `call'
+2021-10-25_09:35:12.61569 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/sinatra-2.1.0/lib/sinatra/base.rb:216:in `call'
+2021-10-25_09:35:12.63126 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/sinatra-2.1.0/lib/sinatra/base.rb:1991:in `call'
+2021-10-25_09:35:12.65893 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/sinatra-2.1.0/lib/sinatra/base.rb:1542:in `block in call'
+2021-10-25_09:35:12.67227 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/sinatra-2.1.0/lib/sinatra/base.rb:1769:in `synchronize'
+2021-10-25_09:35:12.68010 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/sinatra-2.1.0/lib/sinatra/base.rb:1542:in `call'
+2021-10-25_09:35:12.71397 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/rack-2.2.3/lib/rack/handler/webrick.rb:95:in `service'
+2021-10-25_09:35:12.74482 	/opt/gitlab/embedded/lib/ruby/2.7.0/webrick/httpserver.rb:140:in `service'
+2021-10-25_09:35:12.77486 	/opt/gitlab/embedded/lib/ruby/2.7.0/webrick/httpserver.rb:96:in `run'
+2021-10-25_09:35:12.78050 	/opt/gitlab/embedded/lib/ruby/2.7.0/webrick/server.rb:307:in `block in start_thread'
+2021-10-25_09:35:13.62075 E, [2021-10-25T09:35:13.614363 #363] ERROR -- : Error connecting to the Redis: Connection lost (EPIPE)
+2021-10-25_09:35:13.95571 127.0.0.1 - - [25/Oct/2021:09:35:13 UTC] "GET /sidekiq HTTP/1.1" 200 0
+2021-10-25_09:35:13.96220 - -> /sidekiq
+2021-10-25_09:35:14.65899 127.0.0.1 - - [25/Oct/2021:09:26:35 UTC] "GET /database HTTP/1.1" 500 0
+2021-10-25_09:35:14.72000 - -> /database
+2021-10-25_09:35:14.74543 127.0.0.1 - - [25/Oct/2021:09:26:59 UTC] "GET /database HTTP/1.1" 500 0
+2021-10-25_09:35:14.74883 127.0.0.1 - - [25/Oct/2021:09:35:13 UTC] "GET /ruby HTTP/1.1" 200 1000
+2021-10-25_09:35:14.75173 - -> /ruby
+2021-10-25_09:35:14.75734 127.0.0.1 - - [25/Oct/2021:09:27:15 UTC] "GET /database HTTP/1.1" 500 0
+2021-10-25_09:35:14.76810 - -> /database
+2021-10-25_09:35:14.77013 - -> /database
+2021-10-25_09:35:18.54827 127.0.0.1 - - [25/Oct/2021:09:35:13 UTC] "GET /database HTTP/1.1" 200 1006
+2021-10-25_09:35:18.55339 - -> /database
+2021-10-25_09:35:19.96218 127.0.0.1 - - [25/Oct/2021:09:35:19 UTC] "GET /ruby HTTP/1.1" 200 998
+2021-10-25_09:35:19.96547 - -> /ruby
+2021-10-25_09:35:22.33399 127.0.0.1 - - [25/Oct/2021:09:35:20 UTC] "GET /database HTTP/1.1" 200 1006
+2021-10-25_09:35:22.33551 - -> /database
+2021-10-25_09:35:24.04811 127.0.0.1 - - [25/Oct/2021:09:35:23 UTC] "GET /sidekiq HTTP/1.1" 200 1118
+2021-10-25_09:35:24.04898 - -> /sidekiq
+2021-10-25_09:35:35.03950 127.0.0.1 - - [25/Oct/2021:09:35:34 UTC] "GET /ruby HTTP/1.1" 200 997
+2021-10-25_09:35:35.04130 - -> /ruby
+2021-10-25_09:35:35.95042 127.0.0.1 - - [25/Oct/2021:09:35:35 UTC] "GET /database HTTP/1.1" 200 1006
+2021-10-25_09:35:35.95129 - -> /database
+2021-10-25_09:35:43.28332 127.0.0.1 - - [25/Oct/2021:09:35:42 UTC] "GET /sidekiq HTTP/1.1" 200 1117
+2021-10-25_09:35:43.28601 - -> /sidekiq
+2021-10-25_09:35:55.45464 127.0.0.1 - - [25/Oct/2021:09:35:54 UTC] "GET /ruby HTTP/1.1" 200 997
+2021-10-25_09:35:55.45676 - -> /ruby
+2021-10-25_09:35:55.50988 127.0.0.1 - - [25/Oct/2021:09:35:54 UTC] "GET /sidekiq HTTP/1.1" 200 1117
+2021-10-25_09:35:55.51098 - -> /sidekiq
+2021-10-25_09:35:58.74613 127.0.0.1 - - [25/Oct/2021:09:35:55 UTC] "GET /database HTTP/1.1" 200 1006
+2021-10-25_09:35:58.74855 - -> /database
+2021-10-25_09:36:06.68996 127.0.0.1 - - [25/Oct/2021:09:36:05 UTC] "GET /ruby HTTP/1.1" 200 997
+2021-10-25_09:36:06.69109 - -> /ruby
+2021-10-25_09:36:08.19882 127.0.0.1 - - [25/Oct/2021:09:36:05 UTC] "GET /database HTTP/1.1" 200 1006
+2021-10-25_09:36:08.19942 - -> /database
+2021-10-25_09:36:09.00395 127.0.0.1 - - [25/Oct/2021:09:36:08 UTC] "GET /sidekiq HTTP/1.1" 200 1115
+2021-10-25_09:36:09.00629 - -> /sidekiq
+2021-10-25_09:36:19.98602 127.0.0.1 - - [25/Oct/2021:09:36:19 UTC] "GET /ruby HTTP/1.1" 200 997
+2021-10-25_09:36:19.98815 - -> /ruby
+2021-10-25_09:36:21.73978 127.0.0.1 - - [25/Oct/2021:09:36:20 UTC] "GET /database HTTP/1.1" 200 1006
+2021-10-25_09:36:21.74091 - -> /database
+2021-10-25_09:36:29.32124 127.0.0.1 - - [25/Oct/2021:09:36:28 UTC] "GET /sidekiq HTTP/1.1" 200 1117
+2021-10-25_09:36:29.32312 - -> /sidekiq
+2021-10-25_09:36:36.48144 127.0.0.1 - - [25/Oct/2021:09:36:35 UTC] "GET /ruby HTTP/1.1" 200 997
+2021-10-25_09:36:36.48628 - -> /ruby
+2021-10-25_09:36:37.77591 127.0.0.1 - - [25/Oct/2021:09:36:36 UTC] "GET /database HTTP/1.1" 200 1006
+2021-10-25_09:36:37.77730 - -> /database
+2021-10-25_09:36:38.83856 127.0.0.1 - - [25/Oct/2021:09:36:38 UTC] "GET /sidekiq HTTP/1.1" 200 1116
+2021-10-25_09:36:38.84085 - -> /sidekiq
+2021-10-25_09:36:50.05296 127.0.0.1 - - [25/Oct/2021:09:36:49 UTC] "GET /ruby HTTP/1.1" 200 997
+2021-10-25_09:36:50.05440 - -> /ruby
+2021-10-25_09:36:51.73697 127.0.0.1 - - [25/Oct/2021:09:36:49 UTC] "GET /database HTTP/1.1" 200 1006
+2021-10-25_09:36:51.74195 - -> /database
+2021-10-25_09:36:57.77442 127.0.0.1 - - [25/Oct/2021:09:36:53 UTC] "GET /sidekiq HTTP/1.1" 200 1117
+2021-10-25_09:36:57.79353 - -> /sidekiq
+2021-10-25_09:37:04.98607 127.0.0.1 - - [25/Oct/2021:09:37:04 UTC] "GET /ruby HTTP/1.1" 200 997
+2021-10-25_09:37:04.98796 - -> /ruby
+2021-10-25_09:37:11.72632 127.0.0.1 - - [25/Oct/2021:09:37:11 UTC] "GET /sidekiq HTTP/1.1" 200 1118
+2021-10-25_09:37:11.72876 - -> /sidekiq
+2021-10-25_09:37:12.60343 127.0.0.1 - - [25/Oct/2021:09:37:04 UTC] "GET /database HTTP/1.1" 200 1006
+2021-10-25_09:37:12.61813 - -> /database
+2021-10-25_09:37:21.79367 127.0.0.1 - - [25/Oct/2021:09:37:21 UTC] "GET /ruby HTTP/1.1" 200 997
+2021-10-25_09:37:21.79492 - -> /ruby
+2021-10-25_09:37:22.66088 127.0.0.1 - - [25/Oct/2021:09:37:20 UTC] "GET /database HTTP/1.1" 200 1006
+2021-10-25_09:37:22.67740 - -> /database
+2021-10-25_09:37:24.17094 127.0.0.1 - - [25/Oct/2021:09:37:23 UTC] "GET /sidekiq HTTP/1.1" 200 1115
+2021-10-25_09:37:24.17887 - -> /sidekiq
+2021-10-25_09:37:38.42345 127.0.0.1 - - [25/Oct/2021:09:37:37 UTC] "GET /ruby HTTP/1.1" 200 997
+2021-10-25_09:37:38.42829 - -> /ruby
+2021-10-25_09:37:40.07553 127.0.0.1 - - [25/Oct/2021:09:37:38 UTC] "GET /sidekiq HTTP/1.1" 200 67400
+2021-10-25_09:37:40.07941 - -> /sidekiq
+2021-10-25_09:37:42.13416 127.0.0.1 - - [25/Oct/2021:09:37:37 UTC] "GET /database HTTP/1.1" 200 1006
+2021-10-25_09:37:42.13613 - -> /database
+2021-10-25_09:37:49.84462 127.0.0.1 - - [25/Oct/2021:09:37:49 UTC] "GET /ruby HTTP/1.1" 200 997
+2021-10-25_09:37:49.84566 - -> /ruby
+2021-10-25_09:37:54.50712 127.0.0.1 - - [25/Oct/2021:09:37:49 UTC] "GET /database HTTP/1.1" 200 1006
+2021-10-25_09:37:54.50799 - -> /database
+2021-10-25_09:37:56.29162 127.0.0.1 - - [25/Oct/2021:09:37:53 UTC] "GET /sidekiq HTTP/1.1" 200 67401
+2021-10-25_09:37:56.29263 - -> /sidekiq
+2021-10-25_09:38:04.92628 127.0.0.1 - - [25/Oct/2021:09:38:04 UTC] "GET /ruby HTTP/1.1" 200 999
+2021-10-25_09:38:04.93090 - -> /ruby
+2021-10-25_09:38:06.42046 127.0.0.1 - - [25/Oct/2021:09:38:04 UTC] "GET /database HTTP/1.1" 200 1006
+2021-10-25_09:38:06.42516 - -> /database
+2021-10-25_09:38:10.35585 127.0.0.1 - - [25/Oct/2021:09:38:08 UTC] "GET /sidekiq HTTP/1.1" 200 67400
+2021-10-25_09:38:10.36114 - -> /sidekiq
+2021-10-25_09:38:19.75086 127.0.0.1 - - [25/Oct/2021:09:38:19 UTC] "GET /ruby HTTP/1.1" 200 998
+2021-10-25_09:38:19.75290 - -> /ruby
+2021-10-25_09:38:21.83888 127.0.0.1 - - [25/Oct/2021:09:38:19 UTC] "GET /database HTTP/1.1" 200 1006
+2021-10-25_09:38:21.84052 - -> /database
+2021-10-25_09:38:25.20295 127.0.0.1 - - [25/Oct/2021:09:38:23 UTC] "GET /sidekiq HTTP/1.1" 200 67400
+2021-10-25_09:38:25.20562 - -> /sidekiq
+2021-10-25_09:38:37.38971 127.0.0.1 - - [25/Oct/2021:09:38:35 UTC] "GET /ruby HTTP/1.1" 200 998
+2021-10-25_09:38:37.39346 - -> /ruby
+2021-10-25_09:38:39.52324 127.0.0.1 - - [25/Oct/2021:09:38:35 UTC] "GET /database HTTP/1.1" 200 1006
+2021-10-25_09:38:39.52427 - -> /database
+2021-10-25_09:38:42.95672 127.0.0.1 - - [25/Oct/2021:09:38:38 UTC] "GET /sidekiq HTTP/1.1" 200 67399
+2021-10-25_09:38:42.95894 - -> /sidekiq
+2021-10-25_09:38:50.64501 127.0.0.1 - - [25/Oct/2021:09:38:50 UTC] "GET /ruby HTTP/1.1" 200 998
+2021-10-25_09:38:50.64839 - -> /ruby
+2021-10-25_09:38:54.26304 127.0.0.1 - - [25/Oct/2021:09:38:50 UTC] "GET /database HTTP/1.1" 200 1006
+2021-10-25_09:38:54.26487 - -> /database
+2021-10-25_09:38:59.54679 127.0.0.1 - - [25/Oct/2021:09:38:54 UTC] "GET /sidekiq HTTP/1.1" 200 67401
+2021-10-25_09:38:59.55108 - -> /sidekiq
+2021-10-25_09:39:04.92582 127.0.0.1 - - [25/Oct/2021:09:39:04 UTC] "GET /ruby HTTP/1.1" 200 998
+2021-10-25_09:39:04.93302 - -> /ruby
+2021-10-25_09:39:12.62822 127.0.0.1 - - [25/Oct/2021:09:39:08 UTC] "GET /sidekiq HTTP/1.1" 200 67399
+2021-10-25_09:39:12.62948 - -> /sidekiq
+2021-10-25_09:39:12.78304 127.0.0.1 - - [25/Oct/2021:09:39:04 UTC] "GET /database HTTP/1.1" 200 1006
+2021-10-25_09:39:12.78610 - -> /database
+2021-10-25_09:39:21.05881 127.0.0.1 - - [25/Oct/2021:09:39:20 UTC] "GET /ruby HTTP/1.1" 200 996
+2021-10-25_09:39:21.06038 - -> /ruby
+2021-10-25_09:39:22.76753 127.0.0.1 - - [25/Oct/2021:09:39:20 UTC] "GET /database HTTP/1.1" 200 1006
+2021-10-25_09:39:22.76953 - -> /database
+2021-10-25_09:39:27.64991 127.0.0.1 - - [25/Oct/2021:09:39:23 UTC] "GET /sidekiq HTTP/1.1" 200 67401
+2021-10-25_09:39:27.65166 - -> /sidekiq
+2021-10-25_09:39:35.64407 127.0.0.1 - - [25/Oct/2021:09:39:35 UTC] "GET /ruby HTTP/1.1" 200 998
+2021-10-25_09:39:35.64605 - -> /ruby
+2021-10-25_09:39:36.61897 127.0.0.1 - - [25/Oct/2021:09:39:35 UTC] "GET /database HTTP/1.1" 200 1006
+2021-10-25_09:39:36.62204 - -> /database
+2021-10-25_09:39:42.48673 127.0.0.1 - - [25/Oct/2021:09:39:38 UTC] "GET /sidekiq HTTP/1.1" 200 67401
+2021-10-25_09:39:42.48907 - -> /sidekiq
+2021-10-25_09:39:50.33766 127.0.0.1 - - [25/Oct/2021:09:39:50 UTC] "GET /ruby HTTP/1.1" 200 998
+2021-10-25_09:39:50.34096 - -> /ruby
+2021-10-25_09:39:53.83304 127.0.0.1 - - [25/Oct/2021:09:39:50 UTC] "GET /database HTTP/1.1" 200 1006
+2021-10-25_09:39:53.83402 - -> /database
+2021-10-25_09:39:59.50055 127.0.0.1 - - [25/Oct/2021:09:39:53 UTC] "GET /sidekiq HTTP/1.1" 200 67400
+2021-10-25_09:39:59.50485 - -> /sidekiq
+2021-10-25_09:40:06.16268 127.0.0.1 - - [25/Oct/2021:09:40:05 UTC] "GET /ruby HTTP/1.1" 200 998
+2021-10-25_09:40:06.16523 - -> /ruby
+2021-10-25_09:40:10.51145 127.0.0.1 - - [25/Oct/2021:09:40:05 UTC] "GET /database HTTP/1.1" 200 1006
+2021-10-25_09:40:10.51329 - -> /database
+2021-10-25_09:40:11.89174 127.0.0.1 - - [25/Oct/2021:09:40:08 UTC] "GET /sidekiq HTTP/1.1" 200 67400
+2021-10-25_09:40:11.89328 - -> /sidekiq
+2021-10-25_09:40:20.47081 127.0.0.1 - - [25/Oct/2021:09:40:20 UTC] "GET /ruby HTTP/1.1" 200 998
+2021-10-25_09:40:20.48887 - -> /ruby
+2021-10-25_09:40:23.40017 127.0.0.1 - - [25/Oct/2021:09:40:20 UTC] "GET /database HTTP/1.1" 200 1006
+2021-10-25_09:40:23.40271 - -> /database
+2021-10-25_09:40:29.58405 127.0.0.1 - - [25/Oct/2021:09:40:23 UTC] "GET /sidekiq HTTP/1.1" 200 67401
+2021-10-25_09:40:29.58911 - -> /sidekiq
+2021-10-25_09:40:36.46417 127.0.0.1 - - [25/Oct/2021:09:40:35 UTC] "GET /ruby HTTP/1.1" 200 998
+2021-10-25_09:40:36.46581 - -> /ruby
+2021-10-25_09:40:39.82531 127.0.0.1 - - [25/Oct/2021:09:40:36 UTC] "GET /database HTTP/1.1" 200 1006
+2021-10-25_09:40:39.82632 - -> /database
+2021-10-25_09:40:41.76693 127.0.0.1 - - [25/Oct/2021:09:40:39 UTC] "GET /sidekiq HTTP/1.1" 200 67399
+2021-10-25_09:40:41.76797 - -> /sidekiq
+2021-10-25_09:40:49.91193 127.0.0.1 - - [25/Oct/2021:09:40:49 UTC] "GET /ruby HTTP/1.1" 200 998
+2021-10-25_09:40:49.91321 - -> /ruby
+2021-10-25_09:40:55.37841 127.0.0.1 - - [25/Oct/2021:09:40:49 UTC] "GET /database HTTP/1.1" 200 1006
+2021-10-25_09:40:55.39137 - -> /database
+2021-10-25_09:40:56.46466 127.0.0.1 - - [25/Oct/2021:09:40:54 UTC] "GET /sidekiq HTTP/1.1" 200 67399
+2021-10-25_09:40:56.46774 - -> /sidekiq
+2021-10-25_09:41:06.45277 127.0.0.1 - - [25/Oct/2021:09:41:05 UTC] "GET /ruby HTTP/1.1" 200 998
+2021-10-25_09:41:06.45875 - -> /ruby
+2021-10-25_09:41:07.94477 127.0.0.1 - - [25/Oct/2021:09:41:05 UTC] "GET /database HTTP/1.1" 200 1006
+2021-10-25_09:41:07.95079 - -> /database
+2021-10-25_09:41:09.29219 127.0.0.1 - - [25/Oct/2021:09:41:08 UTC] "GET /sidekiq HTTP/1.1" 200 67401
+2021-10-25_09:41:09.29314 - -> /sidekiq
+2021-10-25_09:41:19.49559 127.0.0.1 - - [25/Oct/2021:09:41:19 UTC] "GET /ruby HTTP/1.1" 200 998
+2021-10-25_09:41:19.49803 - -> /ruby
+2021-10-25_09:41:20.79669 127.0.0.1 - - [25/Oct/2021:09:41:19 UTC] "GET /database HTTP/1.1" 200 1006
+2021-10-25_09:41:20.79865 - -> /database
+2021-10-25_09:41:24.03481 127.0.0.1 - - [25/Oct/2021:09:41:23 UTC] "GET /sidekiq HTTP/1.1" 200 67401
+2021-10-25_09:41:24.03587 - -> /sidekiq
+2021-10-25_09:41:34.71311 127.0.0.1 - - [25/Oct/2021:09:41:34 UTC] "GET /ruby HTTP/1.1" 200 998
+2021-10-25_09:41:34.71428 - -> /ruby
+2021-10-25_09:41:35.15726 WARNING:  could not open statistics file "pg_stat_tmp/global.stat": Operation not permitted
+2021-10-25_09:41:36.11479 127.0.0.1 - - [25/Oct/2021:09:41:34 UTC] "GET /database HTTP/1.1" 200 1006
+2021-10-25_09:41:36.11600 - -> /database
+2021-10-25_09:41:41.31668 127.0.0.1 - - [25/Oct/2021:09:41:38 UTC] "GET /sidekiq HTTP/1.1" 200 67400
+2021-10-25_09:41:41.31810 - -> /sidekiq
+2021-10-25_09:41:49.89398 127.0.0.1 - - [25/Oct/2021:09:41:49 UTC] "GET /ruby HTTP/1.1" 200 998
+2021-10-25_09:41:49.89791 - -> /ruby
+2021-10-25_09:41:52.86025 127.0.0.1 - - [25/Oct/2021:09:41:49 UTC] "GET /database HTTP/1.1" 200 1006
+2021-10-25_09:41:52.86088 - -> /database
+2021-10-25_09:41:54.12890 127.0.0.1 - - [25/Oct/2021:09:41:53 UTC] "GET /sidekiq HTTP/1.1" 200 67401
+2021-10-25_09:41:54.12996 - -> /sidekiq
+2021-10-25_09:42:04.64844 127.0.0.1 - - [25/Oct/2021:09:42:04 UTC] "GET /ruby HTTP/1.1" 200 999
+2021-10-25_09:42:04.67122 - -> /ruby
+2021-10-25_09:42:14.97454 127.0.0.1 - - [25/Oct/2021:09:42:10 UTC] "GET /sidekiq HTTP/1.1" 200 67401
+2021-10-25_09:42:14.98963 - -> /sidekiq
+2021-10-25_09:42:29.29238 127.0.0.1 - - [25/Oct/2021:09:42:21 UTC] "GET /ruby HTTP/1.1" 200 999
+2021-10-25_09:42:29.29784 - -> /ruby
+2021-10-25_09:42:34.30853 127.0.0.1 - - [25/Oct/2021:09:42:04 UTC] "GET /database HTTP/1.1" 200 0
+2021-10-25_09:42:34.31027 - -> /database
+2021-10-25_09:42:39.34160 127.0.0.1 - - [25/Oct/2021:09:42:35 UTC] "GET /ruby HTTP/1.1" 200 999
+2021-10-25_09:42:39.37926 - -> /ruby
+2021-10-25_09:42:58.90813 127.0.0.1 - - [25/Oct/2021:09:42:51 UTC] "GET /ruby HTTP/1.1" 200 1002
+2021-10-25_09:42:58.90980 - -> /ruby
+2021-10-25_09:43:31.29432 2021-10-25 09:43:31 - Redis::TimeoutError - Connection timed out:
+2021-10-25_09:43:31.29599 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/redis-4.1.4/lib/redis/connection/ruby.rb:72:in `rescue in _read_from_socket'
+2021-10-25_09:43:31.29749 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/redis-4.1.4/lib/redis/connection/ruby.rb:65:in `_read_from_socket'
+2021-10-25_09:43:31.29857 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/redis-4.1.4/lib/redis/connection/ruby.rb:57:in `gets'
+2021-10-25_09:43:31.29978 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/redis-4.1.4/lib/redis/connection/ruby.rb:396:in `read'
+2021-10-25_09:43:31.30157 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/redis-4.1.4/lib/redis/client.rb:273:in `block in read'
+2021-10-25_09:43:31.30418 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/redis-4.1.4/lib/redis/client.rb:261:in `io'
+2021-10-25_09:43:31.30556 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/redis-4.1.4/lib/redis/client.rb:272:in `read'
+2021-10-25_09:43:31.30640 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/redis-4.1.4/lib/redis/client.rb:125:in `block in call'
+2021-10-25_09:43:31.31790 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/redis-4.1.4/lib/redis/client.rb:241:in `block (2 levels) in process'
+2021-10-25_09:43:31.31946 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/redis-4.1.4/lib/redis/client.rb:385:in `ensure_connected'
+2021-10-25_09:43:31.34062 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/redis-4.1.4/lib/redis/client.rb:231:in `block in process'
+2021-10-25_09:43:31.35901 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/redis-4.1.4/lib/redis/client.rb:320:in `logging'
+2021-10-25_09:43:31.36159 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/redis-4.1.4/lib/redis/client.rb:230:in `process'
+2021-10-25_09:43:31.36330 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/redis-4.1.4/lib/redis/client.rb:125:in `call'
+2021-10-25_09:43:31.36483 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/redis-4.1.4/lib/redis.rb:2626:in `block in _scan'
+2021-10-25_09:43:31.38395 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/redis-4.1.4/lib/redis.rb:51:in `block in synchronize'
+2021-10-25_09:43:31.38613 	/opt/gitlab/embedded/lib/ruby/2.7.0/monitor.rb:202:in `synchronize'
+2021-10-25_09:43:31.38876 	/opt/gitlab/embedded/lib/ruby/2.7.0/monitor.rb:202:in `mon_synchronize'
+2021-10-25_09:43:31.39014 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/redis-4.1.4/lib/redis.rb:51:in `synchronize'
+2021-10-25_09:43:31.40913 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/redis-4.1.4/lib/redis.rb:2625:in `_scan'
+2021-10-25_09:43:31.41061 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/redis-4.1.4/lib/redis.rb:2763:in `sscan'
+2021-10-25_09:43:31.42298 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/redis-namespace-1.6.0/lib/redis/namespace.rb:442:in `call_with_namespace'
+2021-10-25_09:43:31.42481 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/redis-namespace-1.6.0/lib/redis/namespace.rb:328:in `method_missing'
+2021-10-25_09:43:31.43074 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/sidekiq-5.2.9/lib/sidekiq/api.rb:11:in `block in sscan'
+2021-10-25_09:43:31.43301 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/sidekiq-5.2.9/lib/sidekiq/api.rb:10:in `loop'
+2021-10-25_09:43:31.43449 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/sidekiq-5.2.9/lib/sidekiq/api.rb:10:in `sscan'
+2021-10-25_09:43:31.44809 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/sidekiq-5.2.9/lib/sidekiq/api.rb:231:in `block in all'
+2021-10-25_09:43:31.53548 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/sidekiq-5.2.9/lib/sidekiq.rb:97:in `block in redis'
+2021-10-25_09:43:31.53882 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/connection_pool-2.2.5/lib/connection_pool.rb:63:in `block (2 levels) in with'
+2021-10-25_09:43:31.53978 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/connection_pool-2.2.5/lib/connection_pool.rb:62:in `handle_interrupt'
+2021-10-25_09:43:31.54116 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/connection_pool-2.2.5/lib/connection_pool.rb:62:in `block in with'
+2021-10-25_09:43:31.54240 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/connection_pool-2.2.5/lib/connection_pool.rb:59:in `handle_interrupt'
+2021-10-25_09:43:31.54382 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/connection_pool-2.2.5/lib/connection_pool.rb:59:in `with'
+2021-10-25_09:43:31.54512 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/sidekiq-5.2.9/lib/sidekiq.rb:94:in `redis'
+2021-10-25_09:43:31.54623 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/sidekiq-5.2.9/lib/sidekiq/api.rb:231:in `all'
+2021-10-25_09:43:31.54783 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/gitlab-exporter-11.2.0/lib/gitlab_exporter/sidekiq.rb:63:in `block in probe_queues'
+2021-10-25_09:43:31.54857 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/gitlab-exporter-11.2.0/lib/gitlab_exporter/sidekiq.rb:190:in `with_sidekiq'
+2021-10-25_09:43:31.55048 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/gitlab-exporter-11.2.0/lib/gitlab_exporter/sidekiq.rb:62:in `probe_queues'
+2021-10-25_09:43:31.55164 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/gitlab-exporter-11.2.0/lib/gitlab_exporter/prober.rb:18:in `block (3 levels) in probe_all'
+2021-10-25_09:43:31.55287 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/gitlab-exporter-11.2.0/lib/gitlab_exporter/prober.rb:17:in `each'
+2021-10-25_09:43:31.55452 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/gitlab-exporter-11.2.0/lib/gitlab_exporter/prober.rb:17:in `block (2 levels) in probe_all'
+2021-10-25_09:43:31.55645 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/gitlab-exporter-11.2.0/lib/gitlab_exporter/prober.rb:15:in `each'
+2021-10-25_09:43:31.55775 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/gitlab-exporter-11.2.0/lib/gitlab_exporter/prober.rb:15:in `block in probe_all'
+2021-10-25_09:43:31.55847 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/gitlab-exporter-11.2.0/lib/gitlab_exporter/prober.rb:14:in `each'
+2021-10-25_09:43:31.55987 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/gitlab-exporter-11.2.0/lib/gitlab_exporter/prober.rb:14:in `probe_all'
+2021-10-25_09:43:31.56122 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/gitlab-exporter-11.2.0/lib/gitlab_exporter/web_exporter.rb:94:in `block (2 levels) in setup_probes'
+2021-10-25_09:43:31.56257 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/sinatra-2.1.0/lib/sinatra/base.rb:1675:in `call'
+2021-10-25_09:43:31.56446 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/sinatra-2.1.0/lib/sinatra/base.rb:1675:in `block in compile!'
+2021-10-25_09:43:31.56619 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/sinatra-2.1.0/lib/sinatra/base.rb:1013:in `block (3 levels) in route!'
+2021-10-25_09:43:31.56991 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/sinatra-2.1.0/lib/sinatra/base.rb:1032:in `route_eval'
+2021-10-25_09:43:31.57135 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/sinatra-2.1.0/lib/sinatra/base.rb:1013:in `block (2 levels) in route!'
+2021-10-25_09:43:31.57218 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/sinatra-2.1.0/lib/sinatra/base.rb:1061:in `block in process_route'
+2021-10-25_09:43:31.57293 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/sinatra-2.1.0/lib/sinatra/base.rb:1059:in `catch'
+2021-10-25_09:43:31.57431 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/sinatra-2.1.0/lib/sinatra/base.rb:1059:in `process_route'
+2021-10-25_09:43:31.57503 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/sinatra-2.1.0/lib/sinatra/base.rb:1011:in `block in route!'
+2021-10-25_09:43:31.57606 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/sinatra-2.1.0/lib/sinatra/base.rb:1008:in `each'
+2021-10-25_09:43:31.57876 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/sinatra-2.1.0/lib/sinatra/base.rb:1008:in `route!'
+2021-10-25_09:43:31.58724 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/sinatra-2.1.0/lib/sinatra/base.rb:1129:in `block in dispatch!'
+2021-10-25_09:43:31.59447 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/sinatra-2.1.0/lib/sinatra/base.rb:1101:in `block in invoke'
+2021-10-25_09:43:31.60001 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/sinatra-2.1.0/lib/sinatra/base.rb:1101:in `catch'
+2021-10-25_09:43:31.60125 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/sinatra-2.1.0/lib/sinatra/base.rb:1101:in `invoke'
+2021-10-25_09:43:31.60250 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/sinatra-2.1.0/lib/sinatra/base.rb:1124:in `dispatch!'
+2021-10-25_09:43:31.60320 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/sinatra-2.1.0/lib/sinatra/base.rb:939:in `block in call!'
+2021-10-25_09:43:31.60440 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/sinatra-2.1.0/lib/sinatra/base.rb:1101:in `block in invoke'
+2021-10-25_09:43:31.61059 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/sinatra-2.1.0/lib/sinatra/base.rb:1101:in `catch'
+2021-10-25_09:43:31.63873 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/sinatra-2.1.0/lib/sinatra/base.rb:1101:in `invoke'
+2021-10-25_09:43:31.64039 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/sinatra-2.1.0/lib/sinatra/base.rb:939:in `call!'
+2021-10-25_09:43:31.65129 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/sinatra-2.1.0/lib/sinatra/base.rb:929:in `call'
+2021-10-25_09:43:31.69320 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/gitlab-exporter-11.2.0/lib/gitlab_exporter/web_exporter.rb:47:in `call'
+2021-10-25_09:43:31.70585 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/rack-2.2.3/lib/rack/logger.rb:17:in `call'
+2021-10-25_09:43:31.70808 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/gitlab-exporter-11.2.0/lib/gitlab_exporter/web_exporter.rb:21:in `call'
+2021-10-25_09:43:31.71128 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/rack-protection-2.1.0/lib/rack/protection/xss_header.rb:18:in `call'
+2021-10-25_09:43:31.71902 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/rack-protection-2.1.0/lib/rack/protection/path_traversal.rb:16:in `call'
+2021-10-25_09:43:31.72077 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/rack-protection-2.1.0/lib/rack/protection/json_csrf.rb:26:in `call'
+2021-10-25_09:43:31.72385 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/rack-protection-2.1.0/lib/rack/protection/base.rb:50:in `call'
+2021-10-25_09:43:31.73884 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/rack-protection-2.1.0/lib/rack/protection/base.rb:50:in `call'
+2021-10-25_09:43:31.74397 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/rack-protection-2.1.0/lib/rack/protection/frame_options.rb:31:in `call'
+2021-10-25_09:43:32.01900 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/rack-2.2.3/lib/rack/null_logger.rb:11:in `call'
+2021-10-25_09:43:32.47009 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/rack-2.2.3/lib/rack/head.rb:12:in `call'
+2021-10-25_09:43:32.48517 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/sinatra-2.1.0/lib/sinatra/show_exceptions.rb:22:in `call'
+2021-10-25_09:43:32.48722 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/sinatra-2.1.0/lib/sinatra/base.rb:216:in `call'
+2021-10-25_09:43:32.48853 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/sinatra-2.1.0/lib/sinatra/base.rb:1991:in `call'
+2021-10-25_09:43:32.49824 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/sinatra-2.1.0/lib/sinatra/base.rb:1542:in `block in call'
+2021-10-25_09:43:32.50760 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/sinatra-2.1.0/lib/sinatra/base.rb:1769:in `synchronize'
+2021-10-25_09:43:32.50901 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/sinatra-2.1.0/lib/sinatra/base.rb:1542:in `call'
+2021-10-25_09:43:32.51026 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/rack-2.2.3/lib/rack/handler/webrick.rb:95:in `service'
+2021-10-25_09:43:32.51132 	/opt/gitlab/embedded/lib/ruby/2.7.0/webrick/httpserver.rb:140:in `service'
+2021-10-25_09:43:32.65708 	/opt/gitlab/embedded/lib/ruby/2.7.0/webrick/httpserver.rb:96:in `run'
+2021-10-25_09:43:32.70826 	/opt/gitlab/embedded/lib/ruby/2.7.0/webrick/server.rb:307:in `block in start_thread'
+2021-10-25_09:43:32.78642 127.0.0.1 - - [25/Oct/2021:09:43:09 UTC] "GET /ruby HTTP/1.1" 200 1002
+2021-10-25_09:43:32.79240 - -> /ruby
+2021-10-25_09:44:44.87035 E, [2021-10-25T09:44:43.458721 #363] ERROR -- : Error connecting to the database: ERROR:  canceling statement due to statement timeout
+2021-10-25_09:44:44.87288 
+2021-10-25_09:45:08.36578 2021-10-25 09:45:08 - PG::QueryCanceled - ERROR:  canceling statement due to statement timeout
+2021-10-25_09:45:08.39907 :
+2021-10-25_09:45:08.40001 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/gitlab-exporter-11.2.0/lib/gitlab_exporter/database/row_count.rb:178:in `exec'
+2021-10-25_09:45:08.41506 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/gitlab-exporter-11.2.0/lib/gitlab_exporter/database/row_count.rb:178:in `block in execute'
+2021-10-25_09:45:08.41928 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/gitlab-exporter-11.2.0/lib/gitlab_exporter/database/base.rb:59:in `block in with_connection_pool'
+2021-10-25_09:45:08.42108 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/connection_pool-2.2.5/lib/connection_pool.rb:63:in `block (2 levels) in with'
+2021-10-25_09:45:08.42477 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/connection_pool-2.2.5/lib/connection_pool.rb:62:in `handle_interrupt'
+2021-10-25_09:45:08.42870 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/connection_pool-2.2.5/lib/connection_pool.rb:62:in `block in with'
+2021-10-25_09:45:08.43979 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/connection_pool-2.2.5/lib/connection_pool.rb:59:in `handle_interrupt'
+2021-10-25_09:45:08.45186 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/connection_pool-2.2.5/lib/connection_pool.rb:59:in `with'
+2021-10-25_09:45:08.48696 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/gitlab-exporter-11.2.0/lib/gitlab_exporter/database/base.rb:58:in `with_connection_pool'
+2021-10-25_09:45:08.50266 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/gitlab-exporter-11.2.0/lib/gitlab_exporter/database/row_count.rb:177:in `execute'
+2021-10-25_09:45:08.51021 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/gitlab-exporter-11.2.0/lib/gitlab_exporter/database/row_count.rb:159:in `count_from_query_hash'
+2021-10-25_09:45:08.52716 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/gitlab-exporter-11.2.0/lib/gitlab_exporter/database/row_count.rb:150:in `block in run'
+2021-10-25_09:45:08.53122 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/gitlab-exporter-11.2.0/lib/gitlab_exporter/database/row_count.rb:146:in `each'
+2021-10-25_09:45:08.55475 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/gitlab-exporter-11.2.0/lib/gitlab_exporter/database/row_count.rb:146:in `run'
+2021-10-25_09:45:08.55750 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/gitlab-exporter-11.2.0/lib/gitlab_exporter/database/row_count.rb:209:in `probe_db'
+2021-10-25_09:45:08.59001 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/gitlab-exporter-11.2.0/lib/gitlab_exporter/prober.rb:18:in `block (3 levels) in probe_all'
+2021-10-25_09:45:08.73842 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/gitlab-exporter-11.2.0/lib/gitlab_exporter/prober.rb:17:in `each'
+2021-10-25_09:45:08.74011 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/gitlab-exporter-11.2.0/lib/gitlab_exporter/prober.rb:17:in `block (2 levels) in probe_all'
+2021-10-25_09:45:08.77709 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/gitlab-exporter-11.2.0/lib/gitlab_exporter/prober.rb:15:in `each'
+2021-10-25_09:45:08.78354 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/gitlab-exporter-11.2.0/lib/gitlab_exporter/prober.rb:15:in `block in probe_all'
+2021-10-25_09:45:08.78448 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/gitlab-exporter-11.2.0/lib/gitlab_exporter/prober.rb:14:in `each'
+2021-10-25_09:45:08.81297 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/gitlab-exporter-11.2.0/lib/gitlab_exporter/prober.rb:14:in `probe_all'
+2021-10-25_09:45:08.81447 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/gitlab-exporter-11.2.0/lib/gitlab_exporter/web_exporter.rb:94:in `block (2 levels) in setup_probes'
+2021-10-25_09:45:08.81660 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/sinatra-2.1.0/lib/sinatra/base.rb:1675:in `call'
+2021-10-25_09:45:08.85862 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/sinatra-2.1.0/lib/sinatra/base.rb:1675:in `block in compile!'
+2021-10-25_09:45:08.89219 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/sinatra-2.1.0/lib/sinatra/base.rb:1013:in `block (3 levels) in route!'
+2021-10-25_09:45:08.96434 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/sinatra-2.1.0/lib/sinatra/base.rb:1032:in `route_eval'
+2021-10-25_09:45:09.06015 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/sinatra-2.1.0/lib/sinatra/base.rb:1013:in `block (2 levels) in route!'
+2021-10-25_09:45:09.09478 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/sinatra-2.1.0/lib/sinatra/base.rb:1061:in `block in process_route'
+2021-10-25_09:45:09.12359 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/sinatra-2.1.0/lib/sinatra/base.rb:1059:in `catch'
+2021-10-25_09:45:09.14817 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/sinatra-2.1.0/lib/sinatra/base.rb:1059:in `process_route'
+2021-10-25_09:45:09.15003 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/sinatra-2.1.0/lib/sinatra/base.rb:1011:in `block in route!'
+2021-10-25_09:45:09.16242 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/sinatra-2.1.0/lib/sinatra/base.rb:1008:in `each'
+2021-10-25_09:45:09.21717 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/sinatra-2.1.0/lib/sinatra/base.rb:1008:in `route!'
+2021-10-25_09:45:09.37742 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/sinatra-2.1.0/lib/sinatra/base.rb:1129:in `block in dispatch!'
+2021-10-25_09:45:10.69950 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/sinatra-2.1.0/lib/sinatra/base.rb:1101:in `block in invoke'
+2021-10-25_09:45:11.16421 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/sinatra-2.1.0/lib/sinatra/base.rb:1101:in `catch'
+2021-10-25_09:45:11.47201 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/sinatra-2.1.0/lib/sinatra/base.rb:1101:in `invoke'
+2021-10-25_09:45:11.64313 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/sinatra-2.1.0/lib/sinatra/base.rb:1124:in `dispatch!'
+2021-10-25_09:45:12.04457 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/sinatra-2.1.0/lib/sinatra/base.rb:939:in `block in call!'
+2021-10-25_09:45:12.04531 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/sinatra-2.1.0/lib/sinatra/base.rb:1101:in `block in invoke'
+2021-10-25_09:45:12.04629 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/sinatra-2.1.0/lib/sinatra/base.rb:1101:in `catch'
+2021-10-25_09:45:12.04731 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/sinatra-2.1.0/lib/sinatra/base.rb:1101:in `invoke'
+2021-10-25_09:45:12.04895 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/sinatra-2.1.0/lib/sinatra/base.rb:939:in `call!'
+2021-10-25_09:45:12.05227 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/sinatra-2.1.0/lib/sinatra/base.rb:929:in `call'
+2021-10-25_09:45:12.05434 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/gitlab-exporter-11.2.0/lib/gitlab_exporter/web_exporter.rb:47:in `call'
+2021-10-25_09:45:12.05709 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/rack-2.2.3/lib/rack/logger.rb:17:in `call'
+2021-10-25_09:45:12.05865 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/gitlab-exporter-11.2.0/lib/gitlab_exporter/web_exporter.rb:21:in `call'
+2021-10-25_09:45:12.06456 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/rack-protection-2.1.0/lib/rack/protection/xss_header.rb:18:in `call'
+2021-10-25_09:45:12.07412 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/rack-protection-2.1.0/lib/rack/protection/path_traversal.rb:16:in `call'
+2021-10-25_09:45:12.08430 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/rack-protection-2.1.0/lib/rack/protection/json_csrf.rb:26:in `call'
+2021-10-25_09:45:12.09304 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/rack-protection-2.1.0/lib/rack/protection/base.rb:50:in `call'
+2021-10-25_09:45:12.12241 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/rack-protection-2.1.0/lib/rack/protection/base.rb:50:in `call'
+2021-10-25_09:45:12.14053 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/rack-protection-2.1.0/lib/rack/protection/frame_options.rb:31:in `call'
+2021-10-25_09:45:12.14706 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/rack-2.2.3/lib/rack/null_logger.rb:11:in `call'
+2021-10-25_09:45:12.16203 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/rack-2.2.3/lib/rack/head.rb:12:in `call'
+2021-10-25_09:45:12.19305 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/sinatra-2.1.0/lib/sinatra/show_exceptions.rb:22:in `call'
+2021-10-25_09:45:12.20219 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/sinatra-2.1.0/lib/sinatra/base.rb:216:in `call'
+2021-10-25_09:45:12.21572 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/sinatra-2.1.0/lib/sinatra/base.rb:1991:in `call'
+2021-10-25_09:45:12.21817 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/sinatra-2.1.0/lib/sinatra/base.rb:1542:in `block in call'
+2021-10-25_09:45:12.21997 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/sinatra-2.1.0/lib/sinatra/base.rb:1769:in `synchronize'
+2021-10-25_09:45:12.22095 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/sinatra-2.1.0/lib/sinatra/base.rb:1542:in `call'
+2021-10-25_09:45:12.22278 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/rack-2.2.3/lib/rack/handler/webrick.rb:95:in `service'
+2021-10-25_09:45:12.27208 	/opt/gitlab/embedded/lib/ruby/2.7.0/webrick/httpserver.rb:140:in `service'
+2021-10-25_09:45:12.28067 	/opt/gitlab/embedded/lib/ruby/2.7.0/webrick/httpserver.rb:96:in `run'
+2021-10-25_09:45:12.28383 	/opt/gitlab/embedded/lib/ruby/2.7.0/webrick/server.rb:307:in `block in start_thread'
+2021-10-25_09:45:17.56365 2021-10-25 09:45:17 - Redis::TimeoutError - Connection timed out:
+2021-10-25_09:45:17.56568 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/redis-4.1.4/lib/redis/connection/ruby.rb:72:in `rescue in _read_from_socket'
+2021-10-25_09:45:17.56657 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/redis-4.1.4/lib/redis/connection/ruby.rb:65:in `_read_from_socket'
+2021-10-25_09:45:17.56752 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/redis-4.1.4/lib/redis/connection/ruby.rb:57:in `gets'
+2021-10-25_09:45:17.56831 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/redis-4.1.4/lib/redis/connection/ruby.rb:396:in `read'
+2021-10-25_09:45:17.56907 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/redis-4.1.4/lib/redis/client.rb:273:in `block in read'
+2021-10-25_09:45:17.56987 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/redis-4.1.4/lib/redis/client.rb:261:in `io'
+2021-10-25_09:45:17.57346 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/redis-4.1.4/lib/redis/client.rb:272:in `read'
+2021-10-25_09:45:17.57489 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/redis-4.1.4/lib/redis/client.rb:125:in `block in call'
+2021-10-25_09:45:17.57576 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/redis-4.1.4/lib/redis/client.rb:241:in `block (2 levels) in process'
+2021-10-25_09:45:17.57651 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/redis-4.1.4/lib/redis/client.rb:385:in `ensure_connected'
+2021-10-25_09:45:17.57781 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/redis-4.1.4/lib/redis/client.rb:231:in `block in process'
+2021-10-25_09:45:17.57851 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/redis-4.1.4/lib/redis/client.rb:320:in `logging'
+2021-10-25_09:45:17.57925 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/redis-4.1.4/lib/redis/client.rb:230:in `process'
+2021-10-25_09:45:17.58081 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/redis-4.1.4/lib/redis/client.rb:125:in `call'
+2021-10-25_09:45:17.58189 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/redis-4.1.4/lib/redis.rb:1088:in `block in llen'
+2021-10-25_09:45:17.58290 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/redis-4.1.4/lib/redis.rb:51:in `block in synchronize'
+2021-10-25_09:45:17.60200 	/opt/gitlab/embedded/lib/ruby/2.7.0/monitor.rb:202:in `synchronize'
+2021-10-25_09:45:17.60410 	/opt/gitlab/embedded/lib/ruby/2.7.0/monitor.rb:202:in `mon_synchronize'
+2021-10-25_09:45:17.60481 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/redis-4.1.4/lib/redis.rb:51:in `synchronize'
+2021-10-25_09:45:17.60560 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/redis-4.1.4/lib/redis.rb:1087:in `llen'
+2021-10-25_09:45:17.60647 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/redis-namespace-1.6.0/lib/redis/namespace.rb:442:in `call_with_namespace'
+2021-10-25_09:45:17.61082 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/redis-namespace-1.6.0/lib/redis/namespace.rb:328:in `method_missing'
+2021-10-25_09:45:17.61150 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/sidekiq-5.2.9/lib/sidekiq/api.rb:242:in `block in size'
+2021-10-25_09:45:17.61209 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/sidekiq-5.2.9/lib/sidekiq.rb:97:in `block in redis'
+2021-10-25_09:45:17.61299 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/connection_pool-2.2.5/lib/connection_pool.rb:63:in `block (2 levels) in with'
+2021-10-25_09:45:17.61372 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/connection_pool-2.2.5/lib/connection_pool.rb:62:in `handle_interrupt'
+2021-10-25_09:45:17.61464 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/connection_pool-2.2.5/lib/connection_pool.rb:62:in `block in with'
+2021-10-25_09:45:17.61534 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/connection_pool-2.2.5/lib/connection_pool.rb:59:in `handle_interrupt'
+2021-10-25_09:45:17.61618 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/connection_pool-2.2.5/lib/connection_pool.rb:59:in `with'
+2021-10-25_09:45:17.61692 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/sidekiq-5.2.9/lib/sidekiq.rb:94:in `redis'
+2021-10-25_09:45:17.61771 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/sidekiq-5.2.9/lib/sidekiq/api.rb:242:in `size'
+2021-10-25_09:45:17.61857 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/gitlab-exporter-11.2.0/lib/gitlab_exporter/sidekiq.rb:64:in `block (2 levels) in probe_queues'
+2021-10-25_09:45:17.62018 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/gitlab-exporter-11.2.0/lib/gitlab_exporter/sidekiq.rb:63:in `each'
+2021-10-25_09:45:17.62109 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/gitlab-exporter-11.2.0/lib/gitlab_exporter/sidekiq.rb:63:in `block in probe_queues'
+2021-10-25_09:45:17.62192 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/gitlab-exporter-11.2.0/lib/gitlab_exporter/sidekiq.rb:190:in `with_sidekiq'
+2021-10-25_09:45:17.62330 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/gitlab-exporter-11.2.0/lib/gitlab_exporter/sidekiq.rb:62:in `probe_queues'
+2021-10-25_09:45:17.62392 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/gitlab-exporter-11.2.0/lib/gitlab_exporter/prober.rb:18:in `block (3 levels) in probe_all'
+2021-10-25_09:45:17.62457 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/gitlab-exporter-11.2.0/lib/gitlab_exporter/prober.rb:17:in `each'
+2021-10-25_09:45:17.62549 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/gitlab-exporter-11.2.0/lib/gitlab_exporter/prober.rb:17:in `block (2 levels) in probe_all'
+2021-10-25_09:45:17.62616 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/gitlab-exporter-11.2.0/lib/gitlab_exporter/prober.rb:15:in `each'
+2021-10-25_09:45:17.62685 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/gitlab-exporter-11.2.0/lib/gitlab_exporter/prober.rb:15:in `block in probe_all'
+2021-10-25_09:45:17.62757 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/gitlab-exporter-11.2.0/lib/gitlab_exporter/prober.rb:14:in `each'
+2021-10-25_09:45:17.62822 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/gitlab-exporter-11.2.0/lib/gitlab_exporter/prober.rb:14:in `probe_all'
+2021-10-25_09:45:17.62898 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/gitlab-exporter-11.2.0/lib/gitlab_exporter/web_exporter.rb:94:in `block (2 levels) in setup_probes'
+2021-10-25_09:45:17.62956 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/sinatra-2.1.0/lib/sinatra/base.rb:1675:in `call'
+2021-10-25_09:45:17.63027 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/sinatra-2.1.0/lib/sinatra/base.rb:1675:in `block in compile!'
+2021-10-25_09:45:17.63090 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/sinatra-2.1.0/lib/sinatra/base.rb:1013:in `block (3 levels) in route!'
+2021-10-25_09:45:17.63166 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/sinatra-2.1.0/lib/sinatra/base.rb:1032:in `route_eval'
+2021-10-25_09:45:17.63252 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/sinatra-2.1.0/lib/sinatra/base.rb:1013:in `block (2 levels) in route!'
+2021-10-25_09:45:17.63407 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/sinatra-2.1.0/lib/sinatra/base.rb:1061:in `block in process_route'
+2021-10-25_09:45:17.63487 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/sinatra-2.1.0/lib/sinatra/base.rb:1059:in `catch'
+2021-10-25_09:45:17.63564 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/sinatra-2.1.0/lib/sinatra/base.rb:1059:in `process_route'
+2021-10-25_09:45:17.63646 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/sinatra-2.1.0/lib/sinatra/base.rb:1011:in `block in route!'
+2021-10-25_09:45:17.63717 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/sinatra-2.1.0/lib/sinatra/base.rb:1008:in `each'
+2021-10-25_09:45:17.63790 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/sinatra-2.1.0/lib/sinatra/base.rb:1008:in `route!'
+2021-10-25_09:45:17.63935 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/sinatra-2.1.0/lib/sinatra/base.rb:1129:in `block in dispatch!'
+2021-10-25_09:45:17.64201 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/sinatra-2.1.0/lib/sinatra/base.rb:1101:in `block in invoke'
+2021-10-25_09:45:17.65615 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/sinatra-2.1.0/lib/sinatra/base.rb:1101:in `catch'
+2021-10-25_09:45:17.65954 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/sinatra-2.1.0/lib/sinatra/base.rb:1101:in `invoke'
+2021-10-25_09:45:17.66202 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/sinatra-2.1.0/lib/sinatra/base.rb:1124:in `dispatch!'
+2021-10-25_09:45:17.66329 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/sinatra-2.1.0/lib/sinatra/base.rb:939:in `block in call!'
+2021-10-25_09:45:17.66551 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/sinatra-2.1.0/lib/sinatra/base.rb:1101:in `block in invoke'
+2021-10-25_09:45:17.67092 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/sinatra-2.1.0/lib/sinatra/base.rb:1101:in `catch'
+2021-10-25_09:45:17.67253 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/sinatra-2.1.0/lib/sinatra/base.rb:1101:in `invoke'
+2021-10-25_09:45:17.67386 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/sinatra-2.1.0/lib/sinatra/base.rb:939:in `call!'
+2021-10-25_09:45:17.67545 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/sinatra-2.1.0/lib/sinatra/base.rb:929:in `call'
+2021-10-25_09:45:17.67615 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/gitlab-exporter-11.2.0/lib/gitlab_exporter/web_exporter.rb:47:in `call'
+2021-10-25_09:45:17.68111 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/rack-2.2.3/lib/rack/logger.rb:17:in `call'
+2021-10-25_09:45:17.68252 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/gitlab-exporter-11.2.0/lib/gitlab_exporter/web_exporter.rb:21:in `call'
+2021-10-25_09:45:17.68353 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/rack-protection-2.1.0/lib/rack/protection/xss_header.rb:18:in `call'
+2021-10-25_09:45:17.68430 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/rack-protection-2.1.0/lib/rack/protection/path_traversal.rb:16:in `call'
+2021-10-25_09:45:17.68524 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/rack-protection-2.1.0/lib/rack/protection/json_csrf.rb:26:in `call'
+2021-10-25_09:45:17.68638 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/rack-protection-2.1.0/lib/rack/protection/base.rb:50:in `call'
+2021-10-25_09:45:17.68720 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/rack-protection-2.1.0/lib/rack/protection/base.rb:50:in `call'
+2021-10-25_09:45:17.68950 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/rack-protection-2.1.0/lib/rack/protection/frame_options.rb:31:in `call'
+2021-10-25_09:45:17.69029 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/rack-2.2.3/lib/rack/null_logger.rb:11:in `call'
+2021-10-25_09:45:17.69207 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/rack-2.2.3/lib/rack/head.rb:12:in `call'
+2021-10-25_09:45:17.69297 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/sinatra-2.1.0/lib/sinatra/show_exceptions.rb:22:in `call'
+2021-10-25_09:45:17.69433 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/sinatra-2.1.0/lib/sinatra/base.rb:216:in `call'
+2021-10-25_09:45:17.69514 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/sinatra-2.1.0/lib/sinatra/base.rb:1991:in `call'
+2021-10-25_09:45:17.69583 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/sinatra-2.1.0/lib/sinatra/base.rb:1542:in `block in call'
+2021-10-25_09:45:17.69782 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/sinatra-2.1.0/lib/sinatra/base.rb:1769:in `synchronize'
+2021-10-25_09:45:17.72361 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/sinatra-2.1.0/lib/sinatra/base.rb:1542:in `call'
+2021-10-25_09:45:17.80876 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/rack-2.2.3/lib/rack/handler/webrick.rb:95:in `service'
+2021-10-25_09:45:17.82382 	/opt/gitlab/embedded/lib/ruby/2.7.0/webrick/httpserver.rb:140:in `service'
+2021-10-25_09:45:17.82990 	/opt/gitlab/embedded/lib/ruby/2.7.0/webrick/httpserver.rb:96:in `run'
+2021-10-25_09:45:17.83388 	/opt/gitlab/embedded/lib/ruby/2.7.0/webrick/server.rb:307:in `block in start_thread'
+2021-10-25_09:45:23.83990 E, [2021-10-25T09:45:23.828083 #363] ERROR -- : Error connecting to the database: ERROR:  canceling statement due to statement timeout
+2021-10-25_09:45:23.84391 
+2021-10-25_09:45:23.85888 2021-10-25 09:45:23 - PG::QueryCanceled - ERROR:  canceling statement due to statement timeout
+2021-10-25_09:45:23.86004 :
+2021-10-25_09:45:23.86114 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/gitlab-exporter-11.2.0/lib/gitlab_exporter/database/tuple_stats.rb:19:in `exec'
+2021-10-25_09:45:23.86208 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/gitlab-exporter-11.2.0/lib/gitlab_exporter/database/tuple_stats.rb:19:in `block in run'
+2021-10-25_09:45:23.86296 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/gitlab-exporter-11.2.0/lib/gitlab_exporter/database/base.rb:59:in `block in with_connection_pool'
+2021-10-25_09:45:23.86372 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/connection_pool-2.2.5/lib/connection_pool.rb:63:in `block (2 levels) in with'
+2021-10-25_09:45:23.86449 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/connection_pool-2.2.5/lib/connection_pool.rb:62:in `handle_interrupt'
+2021-10-25_09:45:23.86557 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/connection_pool-2.2.5/lib/connection_pool.rb:62:in `block in with'
+2021-10-25_09:45:23.86681 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/connection_pool-2.2.5/lib/connection_pool.rb:59:in `handle_interrupt'
+2021-10-25_09:45:23.86765 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/connection_pool-2.2.5/lib/connection_pool.rb:59:in `with'
+2021-10-25_09:45:23.86832 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/gitlab-exporter-11.2.0/lib/gitlab_exporter/database/base.rb:58:in `with_connection_pool'
+2021-10-25_09:45:23.86916 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/gitlab-exporter-11.2.0/lib/gitlab_exporter/database/tuple_stats.rb:18:in `run'
+2021-10-25_09:45:23.87015 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/gitlab-exporter-11.2.0/lib/gitlab_exporter/database/tuple_stats.rb:34:in `probe_db'
+2021-10-25_09:45:23.87099 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/gitlab-exporter-11.2.0/lib/gitlab_exporter/prober.rb:18:in `block (3 levels) in probe_all'
+2021-10-25_09:45:23.87204 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/gitlab-exporter-11.2.0/lib/gitlab_exporter/prober.rb:17:in `each'
+2021-10-25_09:45:23.87283 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/gitlab-exporter-11.2.0/lib/gitlab_exporter/prober.rb:17:in `block (2 levels) in probe_all'
+2021-10-25_09:45:23.87427 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/gitlab-exporter-11.2.0/lib/gitlab_exporter/prober.rb:15:in `each'
+2021-10-25_09:45:23.88471 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/gitlab-exporter-11.2.0/lib/gitlab_exporter/prober.rb:15:in `block in probe_all'
+2021-10-25_09:45:23.88719 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/gitlab-exporter-11.2.0/lib/gitlab_exporter/prober.rb:14:in `each'
+2021-10-25_09:45:23.88888 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/gitlab-exporter-11.2.0/lib/gitlab_exporter/prober.rb:14:in `probe_all'
+2021-10-25_09:45:23.89217 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/gitlab-exporter-11.2.0/lib/gitlab_exporter/web_exporter.rb:94:in `block (2 levels) in setup_probes'
+2021-10-25_09:45:23.89402 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/sinatra-2.1.0/lib/sinatra/base.rb:1675:in `call'
+2021-10-25_09:45:23.89704 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/sinatra-2.1.0/lib/sinatra/base.rb:1675:in `block in compile!'
+2021-10-25_09:45:23.89812 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/sinatra-2.1.0/lib/sinatra/base.rb:1013:in `block (3 levels) in route!'
+2021-10-25_09:45:23.89915 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/sinatra-2.1.0/lib/sinatra/base.rb:1032:in `route_eval'
+2021-10-25_09:45:23.90401 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/sinatra-2.1.0/lib/sinatra/base.rb:1013:in `block (2 levels) in route!'
+2021-10-25_09:45:23.90538 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/sinatra-2.1.0/lib/sinatra/base.rb:1061:in `block in process_route'
+2021-10-25_09:45:23.90844 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/sinatra-2.1.0/lib/sinatra/base.rb:1059:in `catch'
+2021-10-25_09:45:23.91004 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/sinatra-2.1.0/lib/sinatra/base.rb:1059:in `process_route'
+2021-10-25_09:45:23.91111 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/sinatra-2.1.0/lib/sinatra/base.rb:1011:in `block in route!'
+2021-10-25_09:45:23.91375 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/sinatra-2.1.0/lib/sinatra/base.rb:1008:in `each'
+2021-10-25_09:45:23.91906 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/sinatra-2.1.0/lib/sinatra/base.rb:1008:in `route!'
+2021-10-25_09:45:23.92024 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/sinatra-2.1.0/lib/sinatra/base.rb:1129:in `block in dispatch!'
+2021-10-25_09:45:23.92106 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/sinatra-2.1.0/lib/sinatra/base.rb:1101:in `block in invoke'
+2021-10-25_09:45:23.92261 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/sinatra-2.1.0/lib/sinatra/base.rb:1101:in `catch'
+2021-10-25_09:45:23.92410 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/sinatra-2.1.0/lib/sinatra/base.rb:1101:in `invoke'
+2021-10-25_09:45:23.92563 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/sinatra-2.1.0/lib/sinatra/base.rb:1124:in `dispatch!'
+2021-10-25_09:45:23.95317 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/sinatra-2.1.0/lib/sinatra/base.rb:939:in `block in call!'
+2021-10-25_09:45:23.95477 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/sinatra-2.1.0/lib/sinatra/base.rb:1101:in `block in invoke'
+2021-10-25_09:45:23.95610 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/sinatra-2.1.0/lib/sinatra/base.rb:1101:in `catch'
+2021-10-25_09:45:23.99111 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/sinatra-2.1.0/lib/sinatra/base.rb:1101:in `invoke'
+2021-10-25_09:45:24.00890 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/sinatra-2.1.0/lib/sinatra/base.rb:939:in `call!'
+2021-10-25_09:45:24.01055 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/sinatra-2.1.0/lib/sinatra/base.rb:929:in `call'
+2021-10-25_09:45:24.01159 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/gitlab-exporter-11.2.0/lib/gitlab_exporter/web_exporter.rb:47:in `call'
+2021-10-25_09:45:24.01330 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/rack-2.2.3/lib/rack/logger.rb:17:in `call'
+2021-10-25_09:45:24.01455 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/gitlab-exporter-11.2.0/lib/gitlab_exporter/web_exporter.rb:21:in `call'
+2021-10-25_09:45:24.01664 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/rack-protection-2.1.0/lib/rack/protection/xss_header.rb:18:in `call'
+2021-10-25_09:45:24.02415 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/rack-protection-2.1.0/lib/rack/protection/path_traversal.rb:16:in `call'
+2021-10-25_09:45:24.02556 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/rack-protection-2.1.0/lib/rack/protection/json_csrf.rb:26:in `call'
+2021-10-25_09:45:24.02696 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/rack-protection-2.1.0/lib/rack/protection/base.rb:50:in `call'
+2021-10-25_09:45:24.04403 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/rack-protection-2.1.0/lib/rack/protection/base.rb:50:in `call'
+2021-10-25_09:45:24.04545 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/rack-protection-2.1.0/lib/rack/protection/frame_options.rb:31:in `call'
+2021-10-25_09:45:24.05307 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/rack-2.2.3/lib/rack/null_logger.rb:11:in `call'
+2021-10-25_09:45:24.06790 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/rack-2.2.3/lib/rack/head.rb:12:in `call'
+2021-10-25_09:45:24.06963 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/sinatra-2.1.0/lib/sinatra/show_exceptions.rb:22:in `call'
+2021-10-25_09:45:24.07074 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/sinatra-2.1.0/lib/sinatra/base.rb:216:in `call'
+2021-10-25_09:45:24.08724 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/sinatra-2.1.0/lib/sinatra/base.rb:1991:in `call'
+2021-10-25_09:45:24.08863 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/sinatra-2.1.0/lib/sinatra/base.rb:1542:in `block in call'
+2021-10-25_09:45:24.09576 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/sinatra-2.1.0/lib/sinatra/base.rb:1769:in `synchronize'
+2021-10-25_09:45:24.09675 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/sinatra-2.1.0/lib/sinatra/base.rb:1542:in `call'
+2021-10-25_09:45:24.10509 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/rack-2.2.3/lib/rack/handler/webrick.rb:95:in `service'
+2021-10-25_09:45:24.10595 	/opt/gitlab/embedded/lib/ruby/2.7.0/webrick/httpserver.rb:140:in `service'
+2021-10-25_09:45:24.10667 	/opt/gitlab/embedded/lib/ruby/2.7.0/webrick/httpserver.rb:96:in `run'
+2021-10-25_09:45:24.10780 	/opt/gitlab/embedded/lib/ruby/2.7.0/webrick/server.rb:307:in `block in start_thread'
+2021-10-25_09:45:26.15256 127.0.0.1 - - [25/Oct/2021:09:42:35 UTC] "GET /database HTTP/1.1" 500 0
+2021-10-25_09:45:26.15388 - -> /database
+2021-10-25_09:45:27.78196 127.0.0.1 - - [25/Oct/2021:09:42:55 UTC] "GET /sidekiq HTTP/1.1" 500 0
+2021-10-25_09:45:27.79829 - -> /sidekiq
+2021-10-25_09:45:27.82456 127.0.0.1 - - [25/Oct/2021:09:45:25 UTC] "GET /ruby HTTP/1.1" 200 1007
+2021-10-25_09:45:27.82645 - -> /ruby
+2021-10-25_09:45:28.05578 127.0.0.1 - - [25/Oct/2021:09:42:53 UTC] "GET /database HTTP/1.1" 500 0
+2021-10-25_09:45:28.05711 - -> /database
+2021-10-25_09:45:28.98602 127.0.0.1 - - [25/Oct/2021:09:42:27 UTC] "GET /sidekiq HTTP/1.1" 500 0
+2021-10-25_09:45:28.98820 - -> /sidekiq
+2021-10-25_09:45:32.97480 127.0.0.1 - - [25/Oct/2021:09:45:28 UTC] "GET /sidekiq HTTP/1.1" 200 67398
+2021-10-25_09:45:32.97651 - -> /sidekiq
+2021-10-25_09:45:33.98967 127.0.0.1 - - [25/Oct/2021:09:45:28 UTC] "GET /database HTTP/1.1" 200 1006
+2021-10-25_09:45:33.99165 - -> /database
+2021-10-25_09:45:34.33012 127.0.0.1 - - [25/Oct/2021:09:45:34 UTC] "GET /ruby HTTP/1.1" 200 1001
+2021-10-25_09:45:34.35440 - -> /ruby
+2021-10-25_09:45:35.95001 127.0.0.1 - - [25/Oct/2021:09:45:34 UTC] "GET /database HTTP/1.1" 200 1006
+2021-10-25_09:45:35.95095 - -> /database
+2021-10-25_09:45:39.15351 127.0.0.1 - - [25/Oct/2021:09:45:38 UTC] "GET /sidekiq HTTP/1.1" 200 67399
+2021-10-25_09:45:39.15430 - -> /sidekiq
+2021-10-25_09:45:52.70420 127.0.0.1 - - [25/Oct/2021:09:45:49 UTC] "GET /ruby HTTP/1.1" 200 1003
+2021-10-25_09:45:52.70554 - -> /ruby
+2021-10-25_09:46:10.75771 127.0.0.1 - - [25/Oct/2021:09:46:04 UTC] "GET /ruby HTTP/1.1" 200 1006
+2021-10-25_09:46:10.76359 - -> /ruby
+2021-10-25_09:46:18.38934 2021-10-25 09:46:17 - Redis::TimeoutError - Connection timed out:
+2021-10-25_09:46:18.42241 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/redis-4.1.4/lib/redis/connection/ruby.rb:72:in `rescue in _read_from_socket'
+2021-10-25_09:46:18.42541 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/redis-4.1.4/lib/redis/connection/ruby.rb:65:in `_read_from_socket'
+2021-10-25_09:46:18.42702 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/redis-4.1.4/lib/redis/connection/ruby.rb:57:in `gets'
+2021-10-25_09:46:18.43130 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/redis-4.1.4/lib/redis/connection/ruby.rb:396:in `read'
+2021-10-25_09:46:18.43213 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/redis-4.1.4/lib/redis/client.rb:273:in `block in read'
+2021-10-25_09:46:18.43360 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/redis-4.1.4/lib/redis/client.rb:261:in `io'
+2021-10-25_09:46:18.43425 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/redis-4.1.4/lib/redis/client.rb:272:in `read'
+2021-10-25_09:46:18.43556 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/redis-4.1.4/lib/redis/client.rb:125:in `block in call'
+2021-10-25_09:46:18.43821 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/redis-4.1.4/lib/redis/client.rb:241:in `block (2 levels) in process'
+2021-10-25_09:46:18.43908 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/redis-4.1.4/lib/redis/client.rb:385:in `ensure_connected'
+2021-10-25_09:46:18.45369 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/redis-4.1.4/lib/redis/client.rb:231:in `block in process'
+2021-10-25_09:46:18.45436 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/redis-4.1.4/lib/redis/client.rb:320:in `logging'
+2021-10-25_09:46:18.45531 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/redis-4.1.4/lib/redis/client.rb:230:in `process'
+2021-10-25_09:46:18.46501 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/redis-4.1.4/lib/redis/client.rb:125:in `call'
+2021-10-25_09:46:18.46702 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/redis-4.1.4/lib/redis.rb:1088:in `block in llen'
+2021-10-25_09:46:18.47201 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/redis-4.1.4/lib/redis.rb:51:in `block in synchronize'
+2021-10-25_09:46:18.47281 	/opt/gitlab/embedded/lib/ruby/2.7.0/monitor.rb:202:in `synchronize'
+2021-10-25_09:46:18.47422 	/opt/gitlab/embedded/lib/ruby/2.7.0/monitor.rb:202:in `mon_synchronize'
+2021-10-25_09:46:18.47511 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/redis-4.1.4/lib/redis.rb:51:in `synchronize'
+2021-10-25_09:46:18.49359 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/redis-4.1.4/lib/redis.rb:1087:in `llen'
+2021-10-25_09:46:18.53950 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/redis-namespace-1.6.0/lib/redis/namespace.rb:442:in `call_with_namespace'
+2021-10-25_09:46:18.55977 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/redis-namespace-1.6.0/lib/redis/namespace.rb:328:in `method_missing'
+2021-10-25_09:46:18.56118 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/sidekiq-5.2.9/lib/sidekiq/api.rb:242:in `block in size'
+2021-10-25_09:46:18.56203 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/sidekiq-5.2.9/lib/sidekiq.rb:97:in `block in redis'
+2021-10-25_09:46:18.56396 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/connection_pool-2.2.5/lib/connection_pool.rb:63:in `block (2 levels) in with'
+2021-10-25_09:46:18.56554 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/connection_pool-2.2.5/lib/connection_pool.rb:62:in `handle_interrupt'
+2021-10-25_09:46:18.56611 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/connection_pool-2.2.5/lib/connection_pool.rb:62:in `block in with'
+2021-10-25_09:46:18.56713 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/connection_pool-2.2.5/lib/connection_pool.rb:59:in `handle_interrupt'
+2021-10-25_09:46:18.56900 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/connection_pool-2.2.5/lib/connection_pool.rb:59:in `with'
+2021-10-25_09:46:18.57106 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/sidekiq-5.2.9/lib/sidekiq.rb:94:in `redis'
+2021-10-25_09:46:18.57210 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/sidekiq-5.2.9/lib/sidekiq/api.rb:242:in `size'
+2021-10-25_09:46:18.57271 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/gitlab-exporter-11.2.0/lib/gitlab_exporter/sidekiq.rb:64:in `block (2 levels) in probe_queues'
+2021-10-25_09:46:18.57338 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/gitlab-exporter-11.2.0/lib/gitlab_exporter/sidekiq.rb:63:in `each'
+2021-10-25_09:46:18.57406 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/gitlab-exporter-11.2.0/lib/gitlab_exporter/sidekiq.rb:63:in `block in probe_queues'
+2021-10-25_09:46:18.57508 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/gitlab-exporter-11.2.0/lib/gitlab_exporter/sidekiq.rb:190:in `with_sidekiq'
+2021-10-25_09:46:18.57567 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/gitlab-exporter-11.2.0/lib/gitlab_exporter/sidekiq.rb:62:in `probe_queues'
+2021-10-25_09:46:18.57695 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/gitlab-exporter-11.2.0/lib/gitlab_exporter/prober.rb:18:in `block (3 levels) in probe_all'
+2021-10-25_09:46:18.57790 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/gitlab-exporter-11.2.0/lib/gitlab_exporter/prober.rb:17:in `each'
+2021-10-25_09:46:18.57989 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/gitlab-exporter-11.2.0/lib/gitlab_exporter/prober.rb:17:in `block (2 levels) in probe_all'
+2021-10-25_09:46:18.58227 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/gitlab-exporter-11.2.0/lib/gitlab_exporter/prober.rb:15:in `each'
+2021-10-25_09:46:18.58372 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/gitlab-exporter-11.2.0/lib/gitlab_exporter/prober.rb:15:in `block in probe_all'
+2021-10-25_09:46:18.58460 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/gitlab-exporter-11.2.0/lib/gitlab_exporter/prober.rb:14:in `each'
+2021-10-25_09:46:18.58537 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/gitlab-exporter-11.2.0/lib/gitlab_exporter/prober.rb:14:in `probe_all'
+2021-10-25_09:46:18.58626 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/gitlab-exporter-11.2.0/lib/gitlab_exporter/web_exporter.rb:94:in `block (2 levels) in setup_probes'
+2021-10-25_09:46:18.58725 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/sinatra-2.1.0/lib/sinatra/base.rb:1675:in `call'
+2021-10-25_09:46:18.58872 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/sinatra-2.1.0/lib/sinatra/base.rb:1675:in `block in compile!'
+2021-10-25_09:46:18.58987 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/sinatra-2.1.0/lib/sinatra/base.rb:1013:in `block (3 levels) in route!'
+2021-10-25_09:46:18.59121 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/sinatra-2.1.0/lib/sinatra/base.rb:1032:in `route_eval'
+2021-10-25_09:46:18.59292 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/sinatra-2.1.0/lib/sinatra/base.rb:1013:in `block (2 levels) in route!'
+2021-10-25_09:46:18.59658 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/sinatra-2.1.0/lib/sinatra/base.rb:1061:in `block in process_route'
+2021-10-25_09:46:18.59781 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/sinatra-2.1.0/lib/sinatra/base.rb:1059:in `catch'
+2021-10-25_09:46:18.60029 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/sinatra-2.1.0/lib/sinatra/base.rb:1059:in `process_route'
+2021-10-25_09:46:18.60242 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/sinatra-2.1.0/lib/sinatra/base.rb:1011:in `block in route!'
+2021-10-25_09:46:18.60607 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/sinatra-2.1.0/lib/sinatra/base.rb:1008:in `each'
+2021-10-25_09:46:18.60700 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/sinatra-2.1.0/lib/sinatra/base.rb:1008:in `route!'
+2021-10-25_09:46:18.61029 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/sinatra-2.1.0/lib/sinatra/base.rb:1129:in `block in dispatch!'
+2021-10-25_09:46:18.61255 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/sinatra-2.1.0/lib/sinatra/base.rb:1101:in `block in invoke'
+2021-10-25_09:46:18.61637 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/sinatra-2.1.0/lib/sinatra/base.rb:1101:in `catch'
+2021-10-25_09:46:18.63922 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/sinatra-2.1.0/lib/sinatra/base.rb:1101:in `invoke'
+2021-10-25_09:46:18.65080 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/sinatra-2.1.0/lib/sinatra/base.rb:1124:in `dispatch!'
+2021-10-25_09:46:18.65871 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/sinatra-2.1.0/lib/sinatra/base.rb:939:in `block in call!'
+2021-10-25_09:46:18.66154 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/sinatra-2.1.0/lib/sinatra/base.rb:1101:in `block in invoke'
+2021-10-25_09:46:18.66360 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/sinatra-2.1.0/lib/sinatra/base.rb:1101:in `catch'
+2021-10-25_09:46:18.66616 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/sinatra-2.1.0/lib/sinatra/base.rb:1101:in `invoke'
+2021-10-25_09:46:18.67332 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/sinatra-2.1.0/lib/sinatra/base.rb:939:in `call!'
+2021-10-25_09:46:18.68190 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/sinatra-2.1.0/lib/sinatra/base.rb:929:in `call'
+2021-10-25_09:46:18.70116 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/gitlab-exporter-11.2.0/lib/gitlab_exporter/web_exporter.rb:47:in `call'
+2021-10-25_09:46:18.72290 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/rack-2.2.3/lib/rack/logger.rb:17:in `call'
+2021-10-25_09:46:18.72525 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/gitlab-exporter-11.2.0/lib/gitlab_exporter/web_exporter.rb:21:in `call'
+2021-10-25_09:46:18.73225 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/rack-protection-2.1.0/lib/rack/protection/xss_header.rb:18:in `call'
+2021-10-25_09:46:18.75807 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/rack-protection-2.1.0/lib/rack/protection/path_traversal.rb:16:in `call'
+2021-10-25_09:46:18.76829 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/rack-protection-2.1.0/lib/rack/protection/json_csrf.rb:26:in `call'
+2021-10-25_09:46:18.77096 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/rack-protection-2.1.0/lib/rack/protection/base.rb:50:in `call'
+2021-10-25_09:46:18.77512 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/rack-protection-2.1.0/lib/rack/protection/base.rb:50:in `call'
+2021-10-25_09:46:18.77650 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/rack-protection-2.1.0/lib/rack/protection/frame_options.rb:31:in `call'
+2021-10-25_09:46:18.77919 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/rack-2.2.3/lib/rack/null_logger.rb:11:in `call'
+2021-10-25_09:46:18.79195 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/rack-2.2.3/lib/rack/head.rb:12:in `call'
+2021-10-25_09:46:18.79333 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/sinatra-2.1.0/lib/sinatra/show_exceptions.rb:22:in `call'
+2021-10-25_09:46:18.79679 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/sinatra-2.1.0/lib/sinatra/base.rb:216:in `call'
+2021-10-25_09:46:18.80002 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/sinatra-2.1.0/lib/sinatra/base.rb:1991:in `call'
+2021-10-25_09:46:18.80087 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/sinatra-2.1.0/lib/sinatra/base.rb:1542:in `block in call'
+2021-10-25_09:46:18.80215 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/sinatra-2.1.0/lib/sinatra/base.rb:1769:in `synchronize'
+2021-10-25_09:46:18.80314 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/sinatra-2.1.0/lib/sinatra/base.rb:1542:in `call'
+2021-10-25_09:46:18.80605 	/opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/rack-2.2.3/lib/rack/handler/webrick.rb:95:in `service'
+2021-10-25_09:46:18.80847 	/opt/gitlab/embedded/lib/ruby/2.7.0/webrick/httpserver.rb:140:in `service'
+2021-10-25_09:46:18.80982 	/opt/gitlab/embedded/lib/ruby/2.7.0/webrick/httpserver.rb:96:in `run'
+2021-10-25_09:46:18.81246 	/opt/gitlab/embedded/lib/ruby/2.7.0/webrick/server.rb:307:in `block in start_thread'
