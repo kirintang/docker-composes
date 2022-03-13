@@ -7,4 +7,4 @@ services:
         container_name: redis
         command: redis-server
         volumes: 
-            - ./data:/data
+            - ../data:/data
