@@ -1,10 +1,11 @@
-version: '2'
-services: 
+version: "2"
+services:
     redis:
+        restart: always
         image: redis:6.2.4
-        ports: 
+        ports:
             - "6379:6379"
         container_name: redis
         command: redis-server
-        volumes: 
+        volumes:
             - ../data:/data
