@@ -1,0 +1,15 @@
+version: "2"
+services:
+    keydb:
+        restart: unless-stopped
+        container_name: keydb
+        image: eqalpha/keydb:latest
+        command: keydb-server
+        ports:
+            - "6380:6380"
+        volumes:
+            - ../data:/data
+
+volumes:
+    data:
+        driver: local
